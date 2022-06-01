@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "E:\\Github\\WWISE-PROJ-UI\\",
-   "SourceFilesRoot": "E:\\Github\\WWISE-PROJ-UI\\.cache\\Windows\\",
-   "SoundBanksRoot": "E:\\Github\\WWISE-PROJ-UI\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "E:\\Github\\WWISE-PROJ-BATTLE-UI\\",
+   "SourceFilesRoot": "E:\\Github\\WWISE-PROJ-BATTLE-UI\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\Github\\WWISE-PROJ-BATTLE-UI\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "E:\\Github\\WWISE-PROJ-UI\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "E:\\Github\\WWISE-PROJ-BATTLE-UI\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [],
@@ -18,7 +18,7 @@
    {
     "Id": "586786179",
     "Language": "SFX",
-    "Hash": "1124273683",
+    "Hash": "4290012321",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\RXD_BATTLE_UI",
     "ShortName": "RXD_BATTLE_UI",
     "Path": "RXD_BATTLE_UI.bnk",
@@ -647,10 +647,10 @@
       "ObjectPath": "\\Events\\UI\\UI_Battle\\RXD_GUI_notifications_FX_snipermode_off",
       "IncludedMemoryFiles": [
        {
-        "Id": "463979137",
+        "Id": "797987974",
         "Language": "SFX",
-        "ShortName": "zoom_out.wav",
-        "Path": "SFX\\zoom_out_3F75BDB9.wem"
+        "ShortName": "snipermode_off.wav",
+        "Path": "SFX\\snipermode_off_3F75BDB9.wem"
        }
       ]
      },
@@ -660,10 +660,10 @@
       "ObjectPath": "\\Events\\UI\\UI_Battle\\RXD_GUI_notifications_FX_snipermode_on",
       "IncludedMemoryFiles": [
        {
-        "Id": "259782472",
+        "Id": "818235213",
         "Language": "SFX",
-        "ShortName": "zoom_in.wav",
-        "Path": "SFX\\zoom_in_3F75BDB9.wem"
+        "ShortName": "snipermode_on.wav",
+        "Path": "SFX\\snipermode_on_3F75BDB9.wem"
        }
       ]
      },
@@ -743,10 +743,10 @@
       "ObjectPath": "\\Events\\UI\\UI_Battle\\RXD_GUI_notifications_FX_zoom_in",
       "IncludedMemoryFiles": [
        {
-        "Id": "818235213",
+        "Id": "259782472",
         "Language": "SFX",
-        "ShortName": "snipermode_on.wav",
-        "Path": "SFX\\snipermode_on_3F75BDB9.wem"
+        "ShortName": "zoom_in.wav",
+        "Path": "SFX\\zoom_in_3F75BDB9.wem"
        }
       ]
      },
@@ -756,10 +756,10 @@
       "ObjectPath": "\\Events\\UI\\UI_Battle\\RXD_GUI_notifications_FX_zoom_out",
       "IncludedMemoryFiles": [
        {
-        "Id": "797987974",
+        "Id": "463979137",
         "Language": "SFX",
-        "ShortName": "snipermode_off.wav",
-        "Path": "SFX\\snipermode_off_3F75BDB9.wem"
+        "ShortName": "zoom_out.wav",
+        "Path": "SFX\\zoom_out_3F75BDB9.wem"
        }
       ]
      }

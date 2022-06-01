@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>E:\Github\WWISE-PROJ-UI\</ProjectRoot>
-		<SourceFilesRoot>E:\Github\WWISE-PROJ-UI\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>E:\Github\WWISE-PROJ-UI\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>E:\Github\WWISE-PROJ-BATTLE-UI\</ProjectRoot>
+		<SourceFilesRoot>E:\Github\WWISE-PROJ-BATTLE-UI\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\Github\WWISE-PROJ-BATTLE-UI\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>E:\Github\WWISE-PROJ-UI\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>E:\Github\WWISE-PROJ-BATTLE-UI\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="586786179" Language="SFX" Hash="1124273683">
+		<SoundBank Id="586786179" Language="SFX" Hash="4290012321">
 			<ObjectPath>\SoundBanks\Default Work Unit\RXD_BATTLE_UI</ObjectPath>
 			<ShortName>RXD_BATTLE_UI</ShortName>
 			<Path>RXD_BATTLE_UI.bnk</Path>
@@ -402,17 +402,17 @@
 				</Event>
 				<Event Id="2369389194" Name="RXD_GUI_notifications_FX_snipermode_off" ObjectPath="\Events\UI\UI_Battle\RXD_GUI_notifications_FX_snipermode_off">
 					<IncludedMemoryFiles>
-						<File Id="463979137" Language="SFX">
-							<ShortName>zoom_out.wav</ShortName>
-							<Path>SFX\zoom_out_3F75BDB9.wem</Path>
+						<File Id="797987974" Language="SFX">
+							<ShortName>snipermode_off.wav</ShortName>
+							<Path>SFX\snipermode_off_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="2394322156" Name="RXD_GUI_notifications_FX_snipermode_on" ObjectPath="\Events\UI\UI_Battle\RXD_GUI_notifications_FX_snipermode_on">
 					<IncludedMemoryFiles>
-						<File Id="259782472" Language="SFX">
-							<ShortName>zoom_in.wav</ShortName>
-							<Path>SFX\zoom_in_3F75BDB9.wem</Path>
+						<File Id="818235213" Language="SFX">
+							<ShortName>snipermode_on.wav</ShortName>
+							<Path>SFX\snipermode_on_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -462,17 +462,17 @@
 				</Event>
 				<Event Id="3254250473" Name="RXD_GUI_notifications_FX_zoom_in" ObjectPath="\Events\UI\UI_Battle\RXD_GUI_notifications_FX_zoom_in">
 					<IncludedMemoryFiles>
-						<File Id="818235213" Language="SFX">
-							<ShortName>snipermode_on.wav</ShortName>
-							<Path>SFX\snipermode_on_3F75BDB9.wem</Path>
+						<File Id="259782472" Language="SFX">
+							<ShortName>zoom_in.wav</ShortName>
+							<Path>SFX\zoom_in_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="1195529992" Name="RXD_GUI_notifications_FX_zoom_out" ObjectPath="\Events\UI\UI_Battle\RXD_GUI_notifications_FX_zoom_out">
 					<IncludedMemoryFiles>
-						<File Id="797987974" Language="SFX">
-							<ShortName>snipermode_off.wav</ShortName>
-							<Path>SFX\snipermode_off_3F75BDB9.wem</Path>
+						<File Id="463979137" Language="SFX">
+							<ShortName>zoom_out.wav</ShortName>
+							<Path>SFX\zoom_out_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

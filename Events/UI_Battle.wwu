@@ -329,10 +329,10 @@
 							</PropertyList>
 							<ReferenceList/>
 						</Action>
-						<Action Name="" ID="{F4B74252-474B-4176-9DC4-B88389FE32E5}" ShortID="293176188">
+						<Action Name="" ID="{A82A4921-89FB-4F8E-BBB4-E56F4E3BD5CC}" ShortID="420672421">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Minimap_attention_SE" ID="{B53FFCCB-E090-45F6-9BE6-78DA3EFAF390}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+									<ObjectRef Name="Minimap_attention_SE" ID="{098D1117-1AA1-4816-A518-AF7740820109}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -523,10 +523,10 @@
 							</PropertyList>
 							<ReferenceList/>
 						</Action>
-						<Action Name="" ID="{2DF08993-F2AC-4A83-9320-C26F8AEEE072}" ShortID="608173012">
+						<Action Name="" ID="{C4A4BD28-F798-430C-BE8C-D01BCDAF7DF1}" ShortID="826774360">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="snipermode_off" ID="{DC1C65E4-A8FE-4214-9611-833EEC7BD731}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+									<ObjectRef Name="Snipermode_off" ID="{A8E5676E-1A9C-4473-9B5C-8B758539664D}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -540,10 +540,10 @@
 							</PropertyList>
 							<ReferenceList/>
 						</Action>
-						<Action Name="" ID="{1A7CFABE-6E9F-496C-AB70-1A71D6D4C404}" ShortID="986942930">
+						<Action Name="" ID="{BA90C5FD-91D6-4C2F-8DDC-7C1C7E9B1E17}" ShortID="1030945144">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="snipermode_on" ID="{A0CDC366-B5CC-48DB-A1A8-DA59CF2503D5}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+									<ObjectRef Name="Snipermode_on" ID="{DAD154D9-2E55-4C9B-905A-ECF32EBC32C5}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -591,10 +591,10 @@
 							</PropertyList>
 							<ReferenceList/>
 						</Action>
-						<Action Name="" ID="{F2407C14-20BA-4DBB-AD3C-BCDD80447D32}" ShortID="936365199">
+						<Action Name="" ID="{F2483392-E83B-4378-8E1E-3CB4455FD2E1}" ShortID="748732786">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Zoom_In" ID="{DAD154D9-2E55-4C9B-905A-ECF32EBC32C5}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+									<ObjectRef Name="Zoom_In" ID="{A0CDC366-B5CC-48DB-A1A8-DA59CF2503D5}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -608,10 +608,10 @@
 							</PropertyList>
 							<ReferenceList/>
 						</Action>
-						<Action Name="" ID="{2AACBB87-74A8-4641-976F-062923776B85}" ShortID="705224094">
+						<Action Name="" ID="{DF653BA9-9DDA-4D14-8867-2F7A5189D283}" ShortID="777875929">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Zoom_Out" ID="{A8E5676E-1A9C-4473-9B5C-8B758539664D}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+									<ObjectRef Name="Zoom_out" ID="{DC1C65E4-A8FE-4214-9611-833EEC7BD731}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
