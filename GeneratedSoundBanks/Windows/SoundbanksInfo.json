@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "E:\\Github\\WWISE-PROJ-BATTLE-UI\\",
-   "SourceFilesRoot": "E:\\Github\\WWISE-PROJ-BATTLE-UI\\.cache\\Windows\\",
-   "SoundBanksRoot": "E:\\Github\\WWISE-PROJ-BATTLE-UI\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "D:\\Github\\WWISE-PROJ-BATTLE-UI\\",
+   "SourceFilesRoot": "D:\\Github\\WWISE-PROJ-BATTLE-UI\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Github\\WWISE-PROJ-BATTLE-UI\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "E:\\Github\\WWISE-PROJ-BATTLE-UI\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "D:\\Github\\WWISE-PROJ-BATTLE-UI\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [],
@@ -27,12 +27,15 @@
       "Id": "415363298",
       "Name": "RXD_GUI_notifications_FX_adrenalin_off",
       "ObjectPath": "\\Events\\UI\\UI_Battle\\RXD_GUI_notifications_FX_adrenalin_off",
+      "DurationType": "OneShot",
+      "DurationMin": "5.018004",
+      "DurationMax": "5.018004",
       "IncludedMemoryFiles": [
        {
         "Id": "481380577",
         "Language": "SFX",
         "ShortName": "adrenalin_off.wav",
-        "Path": "SFX\\adrenalin_off_3F75BDB9.wem"
+        "Path": "SFX/adrenalin_off_3F75BDB9.wem"
        }
       ]
      },
@@ -40,12 +43,15 @@
       "Id": "195505281",
       "Name": "RXD_GUI_notifications_FX_adrenalin_start",
       "ObjectPath": "\\Events\\UI\\UI_Battle\\RXD_GUI_notifications_FX_adrenalin_start",
+      "DurationType": "OneShot",
+      "DurationMin": "2.527982",
+      "DurationMax": "2.527982",
       "IncludedMemoryFiles": [
        {
         "Id": "936753822",
         "Language": "SFX",
         "ShortName": "adrenalin.wav",
-        "Path": "SFX\\adrenalin_3F75BDB9.wem"
+        "Path": "SFX/adrenalin_3F75BDB9.wem"
        }
       ]
      },
@@ -53,12 +59,15 @@
       "Id": "740345029",
       "Name": "RXD_GUI_notifications_FX_auto_target_off",
       "ObjectPath": "\\Events\\UI\\UI_Battle\\RXD_GUI_notifications_FX_auto_target_off",
+      "DurationType": "OneShot",
+      "DurationMin": "1.382667",
+      "DurationMax": "1.382667",
       "IncludedMemoryFiles": [
        {
         "Id": "247284545",
         "Language": "SFX",
         "ShortName": "unlock.wav",
-        "Path": "SFX\\unlock_3F75BDB9.wem"
+        "Path": "SFX/unlock_3F75BDB9.wem"
        }
       ]
      },
@@ -66,12 +75,15 @@
       "Id": "4268120761",
       "Name": "RXD_GUI_notifications_FX_auto_target_on",
       "ObjectPath": "\\Events\\UI\\UI_Battle\\RXD_GUI_notifications_FX_auto_target_on",
+      "DurationType": "OneShot",
+      "DurationMin": "3.",
+      "DurationMax": "3.",
       "IncludedMemoryFiles": [
        {
         "Id": "549286836",
         "Language": "SFX",
         "ShortName": "lock_on.wav",
-        "Path": "SFX\\lock_on_3F75BDB9.wem"
+        "Path": "SFX/lock_on_3F75BDB9.wem"
        }
       ]
      },
@@ -79,30 +91,31 @@
       "Id": "1452873505",
       "Name": "RXD_GUI_notifications_FX_base_capture_ally",
       "ObjectPath": "\\Events\\UI\\UI_Battle\\RXD_GUI_notifications_FX_base_capture_ally",
+      "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
         "Id": "28496303",
         "Language": "SFX",
         "ShortName": "capture_tick_02.wav",
-        "Path": "SFX\\capture_tick_02_3F75BDB9.wem"
+        "Path": "SFX/capture_tick_02_3F75BDB9.wem"
        },
        {
         "Id": "382188851",
         "Language": "SFX",
         "ShortName": "capture_tick_03.wav",
-        "Path": "SFX\\capture_tick_03_3F75BDB9.wem"
+        "Path": "SFX/capture_tick_03_3F75BDB9.wem"
        },
        {
         "Id": "395067156",
         "Language": "SFX",
         "ShortName": "capture_tick_01.wav",
-        "Path": "SFX\\capture_tick_01_3F75BDB9.wem"
+        "Path": "SFX/capture_tick_01_3F75BDB9.wem"
        },
        {
         "Id": "875872732",
         "Language": "SFX",
         "ShortName": "capture_tick_04.wav",
-        "Path": "SFX\\capture_tick_04_3F75BDB9.wem"
+        "Path": "SFX/capture_tick_04_3F75BDB9.wem"
        }
       ]
      },
@@ -110,36 +123,37 @@
       "Id": "2708583813",
       "Name": "RXD_GUI_notifications_FX_base_capture_enemy",
       "ObjectPath": "\\Events\\UI\\UI_Battle\\RXD_GUI_notifications_FX_base_capture_enemy",
+      "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
         "Id": "28496303",
         "Language": "SFX",
         "ShortName": "capture_tick_02.wav",
-        "Path": "SFX\\capture_tick_02_3F75BDB9.wem"
+        "Path": "SFX/capture_tick_02_3F75BDB9.wem"
        },
        {
         "Id": "382188851",
         "Language": "SFX",
         "ShortName": "capture_tick_03.wav",
-        "Path": "SFX\\capture_tick_03_3F75BDB9.wem"
+        "Path": "SFX/capture_tick_03_3F75BDB9.wem"
        },
        {
         "Id": "395067156",
         "Language": "SFX",
         "ShortName": "capture_tick_01.wav",
-        "Path": "SFX\\capture_tick_01_3F75BDB9.wem"
+        "Path": "SFX/capture_tick_01_3F75BDB9.wem"
        },
        {
         "Id": "875872732",
         "Language": "SFX",
         "ShortName": "capture_tick_04.wav",
-        "Path": "SFX\\capture_tick_04_3F75BDB9.wem"
+        "Path": "SFX/capture_tick_04_3F75BDB9.wem"
        },
        {
         "Id": "985654641",
         "Language": "SFX",
         "ShortName": "sirene_01.wav",
-        "Path": "SFX\\sirene_01_3F75BDB9.wem"
+        "Path": "SFX/sirene_01_3F75BDB9.wem"
        }
       ]
      },
@@ -147,18 +161,21 @@
       "Id": "1511948122",
       "Name": "RXD_GUI_notifications_FX_base_capture_finish",
       "ObjectPath": "\\Events\\UI\\UI_Battle\\RXD_GUI_notifications_FX_base_capture_finish",
+      "DurationType": "OneShot",
+      "DurationMin": "6.341333",
+      "DurationMax": "6.684",
       "IncludedMemoryFiles": [
        {
         "Id": "876724794",
         "Language": "SFX",
         "ShortName": "capture_end.wav",
-        "Path": "SFX\\capture_end_3F75BDB9.wem"
+        "Path": "SFX/capture_end_3F75BDB9.wem"
        },
        {
         "Id": "992058246",
         "Language": "SFX",
         "ShortName": "capture_end_01.wav",
-        "Path": "SFX\\capture_end_01_3F75BDB9.wem"
+        "Path": "SFX/capture_end_01_3F75BDB9.wem"
        }
       ]
      },
@@ -166,12 +183,15 @@
       "Id": "2394073909",
       "Name": "RXD_GUI_notifications_FX_capture_point_NPC",
       "ObjectPath": "\\Events\\UI\\UI_Battle\\RXD_GUI_notifications_FX_capture_point_NPC",
+      "DurationType": "OneShot",
+      "DurationMin": "0.850431",
+      "DurationMax": "0.850431",
       "IncludedMemoryFiles": [
        {
         "Id": "573612984",
         "Language": "SFX",
         "ShortName": "shot_no.wav",
-        "Path": "SFX\\shot_no_3F75BDB9.wem"
+        "Path": "SFX/shot_no_3F75BDB9.wem"
        }
       ]
      },
@@ -179,12 +199,15 @@
       "Id": "89108919",
       "Name": "RXD_GUI_notifications_FX_capture_point_NPC_end",
       "ObjectPath": "\\Events\\UI\\UI_Battle\\RXD_GUI_notifications_FX_capture_point_NPC_end",
+      "DurationType": "OneShot",
+      "DurationMin": "1.796644",
+      "DurationMax": "1.796644",
       "IncludedMemoryFiles": [
        {
         "Id": "409886364",
         "Language": "SFX",
         "ShortName": "shot_no_no.wav",
-        "Path": "SFX\\shot_no_no_3F75BDB9.wem"
+        "Path": "SFX/shot_no_no_3F75BDB9.wem"
        }
       ]
      },
@@ -192,12 +215,15 @@
       "Id": "68714299",
       "Name": "RXD_GUI_notifications_FX_capture_point_PC",
       "ObjectPath": "\\Events\\UI\\UI_Battle\\RXD_GUI_notifications_FX_capture_point_PC",
+      "DurationType": "OneShot",
+      "DurationMin": "1.195828",
+      "DurationMax": "1.195828",
       "IncludedMemoryFiles": [
        {
         "Id": "598247430",
         "Language": "SFX",
         "ShortName": "shot_yes.wav",
-        "Path": "SFX\\shot_yes_3F75BDB9.wem"
+        "Path": "SFX/shot_yes_3F75BDB9.wem"
        }
       ]
      },
@@ -205,12 +231,15 @@
       "Id": "2525174109",
       "Name": "RXD_GUI_notifications_FX_capture_point_PC_end",
       "ObjectPath": "\\Events\\UI\\UI_Battle\\RXD_GUI_notifications_FX_capture_point_PC_end",
+      "DurationType": "OneShot",
+      "DurationMin": "1.744399",
+      "DurationMax": "1.744399",
       "IncludedMemoryFiles": [
        {
         "Id": "180540657",
         "Language": "SFX",
         "ShortName": "shot_yes_yes.wav",
-        "Path": "SFX\\shot_yes_yes_3F75BDB9.wem"
+        "Path": "SFX/shot_yes_yes_3F75BDB9.wem"
        }
       ]
      },
@@ -218,12 +247,15 @@
       "Id": "803418166",
       "Name": "RXD_GUI_notifications_FX_chat_chat_from_all",
       "ObjectPath": "\\Events\\UI\\Chat\\RXD_GUI_notifications_FX_chat_chat_from_all",
+      "DurationType": "OneShot",
+      "DurationMin": "0.987574",
+      "DurationMax": "0.987574",
       "IncludedMemoryFiles": [
        {
         "Id": "204971993",
         "Language": "SFX",
         "ShortName": "chat_all.wav",
-        "Path": "SFX\\chat_all_3F75BDB9.wem"
+        "Path": "SFX/chat_all_3F75BDB9.wem"
        }
       ]
      },
@@ -231,12 +263,15 @@
       "Id": "2160886799",
       "Name": "RXD_GUI_notifications_FX_chat_chat_from_allies",
       "ObjectPath": "\\Events\\UI\\Chat\\RXD_GUI_notifications_FX_chat_chat_from_allies",
+      "DurationType": "OneShot",
+      "DurationMin": "0.536916",
+      "DurationMax": "0.536916",
       "IncludedMemoryFiles": [
        {
         "Id": "694948402",
         "Language": "SFX",
         "ShortName": "chat_allies.wav",
-        "Path": "SFX\\chat_allies_3F75BDB9.wem"
+        "Path": "SFX/chat_allies_3F75BDB9.wem"
        }
       ]
      },
@@ -244,12 +279,15 @@
       "Id": "1774055041",
       "Name": "RXD_GUI_notifications_FX_chat_chat_from_squad",
       "ObjectPath": "\\Events\\UI\\Chat\\RXD_GUI_notifications_FX_chat_chat_from_squad",
+      "DurationType": "OneShot",
+      "DurationMin": "0.536916",
+      "DurationMax": "0.536916",
       "IncludedMemoryFiles": [
        {
         "Id": "894811318",
         "Language": "SFX",
         "ShortName": "chat_squad.wav",
-        "Path": "SFX\\chat_squad_3F75BDB9.wem"
+        "Path": "SFX/chat_squad_3F75BDB9.wem"
        }
       ]
      },
@@ -257,12 +295,15 @@
       "Id": "3270043085",
       "Name": "RXD_GUI_notifications_FX_chat_chat_to_all",
       "ObjectPath": "\\Events\\UI\\Chat\\RXD_GUI_notifications_FX_chat_chat_to_all",
+      "DurationType": "OneShot",
+      "DurationMin": "0.987574",
+      "DurationMax": "0.987574",
       "IncludedMemoryFiles": [
        {
         "Id": "204971993",
         "Language": "SFX",
         "ShortName": "chat_all.wav",
-        "Path": "SFX\\chat_all_3F75BDB9.wem"
+        "Path": "SFX/chat_all_3F75BDB9.wem"
        }
       ]
      },
@@ -270,12 +311,15 @@
       "Id": "2121777342",
       "Name": "RXD_GUI_notifications_FX_chat_chat_to_allies",
       "ObjectPath": "\\Events\\UI\\Chat\\RXD_GUI_notifications_FX_chat_chat_to_allies",
+      "DurationType": "OneShot",
+      "DurationMin": "0.536916",
+      "DurationMax": "0.536916",
       "IncludedMemoryFiles": [
        {
         "Id": "694948402",
         "Language": "SFX",
         "ShortName": "chat_allies.wav",
-        "Path": "SFX\\chat_allies_3F75BDB9.wem"
+        "Path": "SFX/chat_allies_3F75BDB9.wem"
        }
       ]
      },
@@ -283,12 +327,15 @@
       "Id": "1475712754",
       "Name": "RXD_GUI_notifications_FX_chat_chat_to_squad",
       "ObjectPath": "\\Events\\UI\\Chat\\RXD_GUI_notifications_FX_chat_chat_to_squad",
+      "DurationType": "OneShot",
+      "DurationMin": "0.536916",
+      "DurationMax": "0.536916",
       "IncludedMemoryFiles": [
        {
         "Id": "894811318",
         "Language": "SFX",
         "ShortName": "chat_squad.wav",
-        "Path": "SFX\\chat_squad_3F75BDB9.wem"
+        "Path": "SFX/chat_squad_3F75BDB9.wem"
        }
       ]
      },
@@ -296,12 +343,15 @@
       "Id": "4184383503",
       "Name": "RXD_GUI_notifications_FX_enemy_sighted_for_team",
       "ObjectPath": "\\Events\\UI\\UI_Battle\\RXD_GUI_notifications_FX_enemy_sighted_for_team",
+      "DurationType": "OneShot",
+      "DurationMin": "1.173333",
+      "DurationMax": "1.173333",
       "IncludedMemoryFiles": [
        {
         "Id": "392863622",
         "Language": "SFX",
         "ShortName": "spot.wav",
-        "Path": "SFX\\spot_3F75BDB9.wem"
+        "Path": "SFX/spot_3F75BDB9.wem"
        }
       ]
      },
@@ -309,12 +359,15 @@
       "Id": "211322182",
       "Name": "RXD_GUI_notifications_FX_fire_extinguisher",
       "ObjectPath": "\\Events\\UI\\UI_Battle\\RXD_GUI_notifications_FX_fire_extinguisher",
+      "DurationType": "OneShot",
+      "DurationMin": "1.125986",
+      "DurationMax": "1.125986",
       "IncludedMemoryFiles": [
        {
         "Id": "169751699",
         "Language": "SFX",
         "ShortName": "fire_extinguisher_01.wav",
-        "Path": "SFX\\fire_extinguisher_01_3F75BDB9.wem"
+        "Path": "SFX/fire_extinguisher_01_3F75BDB9.wem"
        }
       ]
      },
@@ -322,12 +375,15 @@
       "Id": "2077159545",
       "Name": "RXD_GUI_notifications_FX_furious_off",
       "ObjectPath": "\\Events\\UI\\UI_Battle\\RXD_GUI_notifications_FX_furious_off",
+      "DurationType": "OneShot",
+      "DurationMin": "2.098005",
+      "DurationMax": "2.098005",
       "IncludedMemoryFiles": [
        {
         "Id": "73388699",
         "Language": "SFX",
         "ShortName": "furious_off.wav",
-        "Path": "SFX\\furious_off_3F75BDB9.wem"
+        "Path": "SFX/furious_off_3F75BDB9.wem"
        }
       ]
      },
@@ -335,12 +391,15 @@
       "Id": "1262943514",
       "Name": "RXD_GUI_notifications_FX_furious_start",
       "ObjectPath": "\\Events\\UI\\UI_Battle\\RXD_GUI_notifications_FX_furious_start",
+      "DurationType": "OneShot",
+      "DurationMin": "2.232018",
+      "DurationMax": "2.232018",
       "IncludedMemoryFiles": [
        {
         "Id": "611927988",
         "Language": "SFX",
         "ShortName": "furious.wav",
-        "Path": "SFX\\furious_3F75BDB9.wem"
+        "Path": "SFX/furious_3F75BDB9.wem"
        }
       ]
      },
@@ -348,12 +407,15 @@
       "Id": "89172926",
       "Name": "RXD_GUI_notifications_FX_lamp",
       "ObjectPath": "\\Events\\UI\\UI_Battle\\RXD_GUI_notifications_FX_lamp",
+      "DurationType": "OneShot",
+      "DurationMin": "1.980952",
+      "DurationMax": "1.980952",
       "IncludedMemoryFiles": [
        {
         "Id": "210474804",
         "Language": "SFX",
         "ShortName": "sixth_02.wav",
-        "Path": "SFX\\sixth_02_3F75BDB9.wem"
+        "Path": "SFX/sixth_02_3F75BDB9.wem"
        }
       ]
      },
@@ -361,18 +423,21 @@
       "Id": "638046589",
       "Name": "RXD_GUI_notifications_FX_medikit",
       "ObjectPath": "\\Events\\UI\\UI_Battle\\RXD_GUI_notifications_FX_medikit",
+      "DurationType": "OneShot",
+      "DurationMin": "0.788027",
+      "DurationMax": "1.339501",
       "IncludedMemoryFiles": [
        {
         "Id": "567295875",
         "Language": "SFX",
         "ShortName": "564184870.wav",
-        "Path": "SFX\\564184870_3F75BDB9.wem"
+        "Path": "SFX/564184870_3F75BDB9.wem"
        },
        {
         "Id": "597250641",
         "Language": "SFX",
         "ShortName": "442390012.wav",
-        "Path": "SFX\\442390012_3F75BDB9.wem"
+        "Path": "SFX/442390012_3F75BDB9.wem"
        }
       ]
      },
@@ -380,12 +445,15 @@
       "Id": "1494246010",
       "Name": "RXD_GUI_notifications_FX_minimap_attention",
       "ObjectPath": "\\Events\\UI\\UI_Battle\\RXD_GUI_notifications_FX_minimap_attention",
+      "DurationType": "OneShot",
+      "DurationMin": "0.525601",
+      "DurationMax": "0.525601",
       "IncludedMemoryFiles": [
        {
         "Id": "53094129",
         "Language": "SFX",
         "ShortName": "713454727.wav",
-        "Path": "SFX\\713454727_3F75BDB9.wem"
+        "Path": "SFX/713454727_3F75BDB9.wem"
        }
       ]
      },
@@ -393,12 +461,15 @@
       "Id": "919961425",
       "Name": "RXD_GUI_notifications_FX_perk_shooter",
       "ObjectPath": "\\Events\\UI\\UI_Battle\\RXD_GUI_notifications_FX_perk_shooter",
+      "DurationType": "OneShot",
+      "DurationMin": "1.54322",
+      "DurationMax": "1.54322",
       "IncludedMemoryFiles": [
        {
         "Id": "120008344",
         "Language": "SFX",
         "ShortName": "perk_shooter1.wav",
-        "Path": "SFX\\perk_shooter1_3F75BDB9.wem"
+        "Path": "SFX/perk_shooter1_3F75BDB9.wem"
        }
       ]
      },
@@ -406,12 +477,15 @@
       "Id": "1533018198",
       "Name": "RXD_GUI_notifications_FX_perk_shooter_max",
       "ObjectPath": "\\Events\\UI\\UI_Battle\\RXD_GUI_notifications_FX_perk_shooter_max",
+      "DurationType": "OneShot",
+      "DurationMin": "1.868209",
+      "DurationMax": "1.868209",
       "IncludedMemoryFiles": [
        {
         "Id": "845555935",
         "Language": "SFX",
         "ShortName": "perk_shooter_max.wav",
-        "Path": "SFX\\perk_shooter_max_3F75BDB9.wem"
+        "Path": "SFX/perk_shooter_max_3F75BDB9.wem"
        }
       ]
      },
@@ -419,12 +493,15 @@
       "Id": "1050762617",
       "Name": "RXD_GUI_notifications_FX_quick_commands_attack",
       "ObjectPath": "\\Events\\UI\\Quick_Commands\\RXD_GUI_notifications_FX_quick_commands_attack",
+      "DurationType": "OneShot",
+      "DurationMin": "0.671927",
+      "DurationMax": "0.671927",
       "IncludedMemoryFiles": [
        {
         "Id": "96317382",
         "Language": "SFX",
         "ShortName": "882734335.wav",
-        "Path": "SFX\\882734335_3F75BDB9.wem"
+        "Path": "SFX/882734335_3F75BDB9.wem"
        }
       ]
      },
@@ -432,12 +509,15 @@
       "Id": "509676631",
       "Name": "RXD_GUI_notifications_FX_quick_commands_attack_target",
       "ObjectPath": "\\Events\\UI\\Quick_Commands\\RXD_GUI_notifications_FX_quick_commands_attack_target",
+      "DurationType": "OneShot",
+      "DurationMin": "0.671927",
+      "DurationMax": "0.671927",
       "IncludedMemoryFiles": [
        {
         "Id": "96317382",
         "Language": "SFX",
         "ShortName": "882734335.wav",
-        "Path": "SFX\\882734335_3F75BDB9.wem"
+        "Path": "SFX/882734335_3F75BDB9.wem"
        }
       ]
      },
@@ -445,12 +525,15 @@
       "Id": "260733251",
       "Name": "RXD_GUI_notifications_FX_quick_commands_capture_base",
       "ObjectPath": "\\Events\\UI\\Quick_Commands\\RXD_GUI_notifications_FX_quick_commands_capture_base",
+      "DurationType": "OneShot",
+      "DurationMin": "0.294603",
+      "DurationMax": "0.294603",
       "IncludedMemoryFiles": [
        {
         "Id": "47423248",
         "Language": "SFX",
         "ShortName": "196373658.wav",
-        "Path": "SFX\\196373658_3F75BDB9.wem"
+        "Path": "SFX/196373658_3F75BDB9.wem"
        }
       ]
      },
@@ -458,12 +541,15 @@
       "Id": "83653667",
       "Name": "RXD_GUI_notifications_FX_quick_commands_close",
       "ObjectPath": "\\Events\\UI\\UI_Battle\\RXD_GUI_notifications_FX_quick_commands_close",
+      "DurationType": "OneShot",
+      "DurationMin": "0.501995",
+      "DurationMax": "0.501995",
       "IncludedMemoryFiles": [
        {
         "Id": "22143279",
         "Language": "SFX",
         "ShortName": "quick_commands_close.wav",
-        "Path": "SFX\\quick_commands_close_3F75BDB9.wem"
+        "Path": "SFX/quick_commands_close_3F75BDB9.wem"
        }
       ]
      },
@@ -471,12 +557,15 @@
       "Id": "1703041031",
       "Name": "RXD_GUI_notifications_FX_quick_commands_defend_base",
       "ObjectPath": "\\Events\\UI\\Quick_Commands\\RXD_GUI_notifications_FX_quick_commands_defend_base",
+      "DurationType": "OneShot",
+      "DurationMin": "0.518095",
+      "DurationMax": "0.518095",
       "IncludedMemoryFiles": [
        {
         "Id": "241454308",
         "Language": "SFX",
         "ShortName": "479669981.wav",
-        "Path": "SFX\\479669981_3F75BDB9.wem"
+        "Path": "SFX/479669981_3F75BDB9.wem"
        }
       ]
      },
@@ -484,12 +573,15 @@
       "Id": "2589950341",
       "Name": "RXD_GUI_notifications_FX_quick_commands_help_me",
       "ObjectPath": "\\Events\\UI\\Quick_Commands\\RXD_GUI_notifications_FX_quick_commands_help_me",
+      "DurationType": "OneShot",
+      "DurationMin": "0.671927",
+      "DurationMax": "0.671927",
       "IncludedMemoryFiles": [
        {
         "Id": "96317382",
         "Language": "SFX",
         "ShortName": "882734335.wav",
-        "Path": "SFX\\882734335_3F75BDB9.wem"
+        "Path": "SFX/882734335_3F75BDB9.wem"
        }
       ]
      },
@@ -497,12 +589,15 @@
       "Id": "2542918404",
       "Name": "RXD_GUI_notifications_FX_quick_commands_negative",
       "ObjectPath": "\\Events\\UI\\Quick_Commands\\RXD_GUI_notifications_FX_quick_commands_negative",
+      "DurationType": "OneShot",
+      "DurationMin": "0.326531",
+      "DurationMax": "0.326531",
       "IncludedMemoryFiles": [
        {
         "Id": "197011291",
         "Language": "SFX",
         "ShortName": "748651549.wav",
-        "Path": "SFX\\748651549_3F75BDB9.wem"
+        "Path": "SFX/748651549_3F75BDB9.wem"
        }
       ]
      },
@@ -510,12 +605,15 @@
       "Id": "2917023253",
       "Name": "RXD_GUI_notifications_FX_quick_commands_open",
       "ObjectPath": "\\Events\\UI\\UI_Battle\\RXD_GUI_notifications_FX_quick_commands_open",
+      "DurationType": "OneShot",
+      "DurationMin": "0.357007",
+      "DurationMax": "0.357007",
       "IncludedMemoryFiles": [
        {
         "Id": "574793031",
         "Language": "SFX",
         "ShortName": "quick_commands_open.wav",
-        "Path": "SFX\\quick_commands_open_3F75BDB9.wem"
+        "Path": "SFX/quick_commands_open_3F75BDB9.wem"
        }
       ]
      },
@@ -523,12 +621,15 @@
       "Id": "3954632236",
       "Name": "RXD_GUI_notifications_FX_quick_commands_positive",
       "ObjectPath": "\\Events\\UI\\Quick_Commands\\RXD_GUI_notifications_FX_quick_commands_positive",
+      "DurationType": "OneShot",
+      "DurationMin": "0.294603",
+      "DurationMax": "0.294603",
       "IncludedMemoryFiles": [
        {
         "Id": "47423248",
         "Language": "SFX",
         "ShortName": "196373658.wav",
-        "Path": "SFX\\196373658_3F75BDB9.wem"
+        "Path": "SFX/196373658_3F75BDB9.wem"
        }
       ]
      },
@@ -536,12 +637,15 @@
       "Id": "2195325682",
       "Name": "RXD_GUI_notifications_FX_quick_commands_reloading",
       "ObjectPath": "\\Events\\UI\\Quick_Commands\\RXD_GUI_notifications_FX_quick_commands_reloading",
+      "DurationType": "OneShot",
+      "DurationMin": "0.518095",
+      "DurationMax": "0.518095",
       "IncludedMemoryFiles": [
        {
         "Id": "241454308",
         "Language": "SFX",
         "ShortName": "479669981.wav",
-        "Path": "SFX\\479669981_3F75BDB9.wem"
+        "Path": "SFX/479669981_3F75BDB9.wem"
        }
       ]
      },
@@ -549,18 +653,21 @@
       "Id": "690108767",
       "Name": "RXD_GUI_notifications_FX_repair",
       "ObjectPath": "\\Events\\UI\\UI_Battle\\RXD_GUI_notifications_FX_repair",
+      "DurationType": "OneShot",
+      "DurationMin": "1.348",
+      "DurationMax": "1.436",
       "IncludedMemoryFiles": [
        {
         "Id": "554648167",
         "Language": "SFX",
         "ShortName": "884436954.wav",
-        "Path": "SFX\\884436954_3F75BDB9.wem"
+        "Path": "SFX/884436954_3F75BDB9.wem"
        },
        {
         "Id": "980556924",
         "Language": "SFX",
         "ShortName": "841367790.wav",
-        "Path": "SFX\\841367790_3F75BDB9.wem"
+        "Path": "SFX/841367790_3F75BDB9.wem"
        }
       ]
      },
@@ -568,18 +675,21 @@
       "Id": "2351454936",
       "Name": "RXD_GUI_notifications_FX_restorer",
       "ObjectPath": "\\Events\\UI\\UI_Battle\\RXD_GUI_notifications_FX_restorer",
+      "DurationType": "OneShot",
+      "DurationMin": "1.076",
+      "DurationMax": "1.214694",
       "IncludedMemoryFiles": [
        {
         "Id": "332870434",
         "Language": "SFX",
         "ShortName": "861020265.wav",
-        "Path": "SFX\\861020265_3F75BDB9.wem"
+        "Path": "SFX/861020265_3F75BDB9.wem"
        },
        {
         "Id": "480164303",
         "Language": "SFX",
         "ShortName": "964610319.wav",
-        "Path": "SFX\\964610319_3F75BDB9.wem"
+        "Path": "SFX/964610319_3F75BDB9.wem"
        }
       ]
      },
@@ -587,12 +697,15 @@
       "Id": "1618763679",
       "Name": "RXD_GUI_notifications_FX_shells_choose",
       "ObjectPath": "\\Events\\UI\\UI_Battle\\RXD_GUI_notifications_FX_shells_choose",
+      "DurationType": "OneShot",
+      "DurationMin": "0.480998",
+      "DurationMax": "0.480998",
       "IncludedMemoryFiles": [
        {
         "Id": "90036357",
         "Language": "SFX",
         "ShortName": "shell_choose_01.wav",
-        "Path": "SFX\\shell_choose_01_3F75BDB9.wem"
+        "Path": "SFX/shell_choose_01_3F75BDB9.wem"
        }
       ]
      },
@@ -600,12 +713,15 @@
       "Id": "3934743520",
       "Name": "RXD_GUI_notifications_FX_shells_close",
       "ObjectPath": "\\Events\\UI\\UI_Battle\\RXD_GUI_notifications_FX_shells_close",
+      "DurationType": "OneShot",
+      "DurationMin": "0.39102",
+      "DurationMax": "0.39102",
       "IncludedMemoryFiles": [
        {
         "Id": "57782841",
         "Language": "SFX",
         "ShortName": "shell_close_01.wav",
-        "Path": "SFX\\shell_close_01_3F75BDB9.wem"
+        "Path": "SFX/shell_close_01_3F75BDB9.wem"
        }
       ]
      },
@@ -613,12 +729,15 @@
       "Id": "4117768852",
       "Name": "RXD_GUI_notifications_FX_shells_open",
       "ObjectPath": "\\Events\\UI\\UI_Battle\\RXD_GUI_notifications_FX_shells_open",
+      "DurationType": "OneShot",
+      "DurationMin": "0.39102",
+      "DurationMax": "0.39102",
       "IncludedMemoryFiles": [
        {
         "Id": "982016693",
         "Language": "SFX",
         "ShortName": "shell_open_01.wav",
-        "Path": "SFX\\shell_open_01_3F75BDB9.wem"
+        "Path": "SFX/shell_open_01_3F75BDB9.wem"
        }
       ]
      },
@@ -626,18 +745,21 @@
       "Id": "2565301733",
       "Name": "RXD_GUI_notifications_FX_sight_convergence",
       "ObjectPath": "\\Events\\UI\\UI_Battle\\RXD_GUI_notifications_FX_sight_convergence",
+      "DurationType": "OneShot",
+      "DurationMin": "0.953333",
+      "DurationMax": "0.953333",
       "IncludedMemoryFiles": [
        {
         "Id": "140081581",
         "Language": "SFX",
         "ShortName": "981348322.wav",
-        "Path": "SFX\\981348322_3F75BDB9.wem"
+        "Path": "SFX/981348322_3F75BDB9.wem"
        },
        {
         "Id": "698741624",
         "Language": "SFX",
         "ShortName": "764402563.wav",
-        "Path": "SFX\\764402563_3F75BDB9.wem"
+        "Path": "SFX/764402563_3F75BDB9.wem"
        }
       ]
      },
@@ -645,12 +767,15 @@
       "Id": "2369389194",
       "Name": "RXD_GUI_notifications_FX_snipermode_off",
       "ObjectPath": "\\Events\\UI\\UI_Battle\\RXD_GUI_notifications_FX_snipermode_off",
+      "DurationType": "OneShot",
+      "DurationMin": "1.178005",
+      "DurationMax": "1.178005",
       "IncludedMemoryFiles": [
        {
         "Id": "797987974",
         "Language": "SFX",
         "ShortName": "snipermode_off.wav",
-        "Path": "SFX\\snipermode_off_3F75BDB9.wem"
+        "Path": "SFX/snipermode_off_3F75BDB9.wem"
        }
       ]
      },
@@ -658,12 +783,15 @@
       "Id": "2394322156",
       "Name": "RXD_GUI_notifications_FX_snipermode_on",
       "ObjectPath": "\\Events\\UI\\UI_Battle\\RXD_GUI_notifications_FX_snipermode_on",
+      "DurationType": "OneShot",
+      "DurationMin": "0.952018",
+      "DurationMax": "0.952018",
       "IncludedMemoryFiles": [
        {
         "Id": "818235213",
         "Language": "SFX",
         "ShortName": "snipermode_on.wav",
-        "Path": "SFX\\snipermode_on_3F75BDB9.wem"
+        "Path": "SFX/snipermode_on_3F75BDB9.wem"
        }
       ]
      },
@@ -671,12 +799,15 @@
       "Id": "2495411691",
       "Name": "RXD_GUI_notifications_FX_stripe",
       "ObjectPath": "\\Events\\UI\\UI_Battle\\RXD_GUI_notifications_FX_stripe",
+      "DurationType": "OneShot",
+      "DurationMin": "0.761905",
+      "DurationMax": "0.761905",
       "IncludedMemoryFiles": [
        {
         "Id": "844699307",
         "Language": "SFX",
         "ShortName": "164928929.wav",
-        "Path": "SFX\\164928929_3F75BDB9.wem"
+        "Path": "SFX/164928929_3F75BDB9.wem"
        }
       ]
      },
@@ -684,18 +815,19 @@
       "Id": "2008297811",
       "Name": "RXD_GUI_notifications_FX_timer",
       "ObjectPath": "\\Events\\UI\\UI_Battle\\RXD_GUI_notifications_FX_timer",
+      "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
         "Id": "500630467",
         "Language": "SFX",
         "ShortName": "timer1.wav",
-        "Path": "SFX\\timer1_9EDFC787.wem"
+        "Path": "SFX/timer1_9EDFC787.wem"
        },
        {
         "Id": "1046628923",
         "Language": "SFX",
         "ShortName": "timer.wav",
-        "Path": "SFX\\timer_9EDFC787.wem"
+        "Path": "SFX/timer_9EDFC787.wem"
        }
       ]
      },
@@ -703,18 +835,19 @@
       "Id": "3437930790",
       "Name": "RXD_GUI_notifications_FX_victory_NPC",
       "ObjectPath": "\\Events\\LoadBGM\\Music_Battle\\RXD_GUI_notifications_FX_victory_NPC",
+      "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
         "Id": "70971940",
         "Language": "SFX",
         "ShortName": "loop_no.wav",
-        "Path": "SFX\\loop_no_3F75BDB9.wem"
+        "Path": "SFX/loop_no_3F75BDB9.wem"
        },
        {
         "Id": "295843263",
         "Language": "SFX",
         "ShortName": "danger.wav",
-        "Path": "SFX\\danger_3F75BDB9.wem"
+        "Path": "SFX/danger_3F75BDB9.wem"
        }
       ]
      },
@@ -722,18 +855,19 @@
       "Id": "3692485194",
       "Name": "RXD_GUI_notifications_FX_victory_PC",
       "ObjectPath": "\\Events\\LoadBGM\\Music_Battle\\RXD_GUI_notifications_FX_victory_PC",
+      "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
         "Id": "295843263",
         "Language": "SFX",
         "ShortName": "danger.wav",
-        "Path": "SFX\\danger_3F75BDB9.wem"
+        "Path": "SFX/danger_3F75BDB9.wem"
        },
        {
         "Id": "1038804566",
         "Language": "SFX",
         "ShortName": "loop_yes.wav",
-        "Path": "SFX\\loop_yes_3F75BDB9.wem"
+        "Path": "SFX/loop_yes_3F75BDB9.wem"
        }
       ]
      },
@@ -741,12 +875,15 @@
       "Id": "3254250473",
       "Name": "RXD_GUI_notifications_FX_zoom_in",
       "ObjectPath": "\\Events\\UI\\UI_Battle\\RXD_GUI_notifications_FX_zoom_in",
+      "DurationType": "OneShot",
+      "DurationMin": "0.557914",
+      "DurationMax": "0.557914",
       "IncludedMemoryFiles": [
        {
         "Id": "259782472",
         "Language": "SFX",
         "ShortName": "zoom_in.wav",
-        "Path": "SFX\\zoom_in_3F75BDB9.wem"
+        "Path": "SFX/zoom_in_3F75BDB9.wem"
        }
       ]
      },
@@ -754,12 +891,15 @@
       "Id": "1195529992",
       "Name": "RXD_GUI_notifications_FX_zoom_out",
       "ObjectPath": "\\Events\\UI\\UI_Battle\\RXD_GUI_notifications_FX_zoom_out",
+      "DurationType": "OneShot",
+      "DurationMin": "0.466168",
+      "DurationMax": "0.466168",
       "IncludedMemoryFiles": [
        {
         "Id": "463979137",
         "Language": "SFX",
         "ShortName": "zoom_out.wav",
-        "Path": "SFX\\zoom_out_3F75BDB9.wem"
+        "Path": "SFX/zoom_out_3F75BDB9.wem"
        }
       ]
      }
