@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "D:\\Github\\WWISE-PROJ-BATTLE-UI\\",
-   "SourceFilesRoot": "D:\\Github\\WWISE-PROJ-BATTLE-UI\\.cache\\Windows\\",
-   "SoundBanksRoot": "D:\\Github\\WWISE-PROJ-BATTLE-UI\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "F:\\Github\\WWISE-PROJ-BATTLE-UI\\",
+   "SourceFilesRoot": "F:\\Github\\WWISE-PROJ-BATTLE-UI\\.cache\\Windows\\",
+   "SoundBanksRoot": "F:\\Github\\WWISE-PROJ-BATTLE-UI\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "D:\\Github\\WWISE-PROJ-BATTLE-UI\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "F:\\Github\\WWISE-PROJ-BATTLE-UI\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [],
@@ -18,7 +18,7 @@
    {
     "Id": "586786179",
     "Language": "SFX",
-    "Hash": "4290012321",
+    "Hash": "363984438",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\RXD_BATTLE_UI",
     "ShortName": "RXD_BATTLE_UI",
     "Path": "RXD_BATTLE_UI.bnk",
@@ -35,7 +35,7 @@
         "Id": "481380577",
         "Language": "SFX",
         "ShortName": "adrenalin_off.wav",
-        "Path": "SFX/adrenalin_off_3F75BDB9.wem"
+        "Path": "SFX\\adrenalin_off_3F75BDB9.wem"
        }
       ]
      },
@@ -51,7 +51,7 @@
         "Id": "936753822",
         "Language": "SFX",
         "ShortName": "adrenalin.wav",
-        "Path": "SFX/adrenalin_3F75BDB9.wem"
+        "Path": "SFX\\adrenalin_3F75BDB9.wem"
        }
       ]
      },
@@ -67,7 +67,7 @@
         "Id": "247284545",
         "Language": "SFX",
         "ShortName": "unlock.wav",
-        "Path": "SFX/unlock_3F75BDB9.wem"
+        "Path": "SFX\\unlock_3F75BDB9.wem"
        }
       ]
      },
@@ -83,7 +83,7 @@
         "Id": "549286836",
         "Language": "SFX",
         "ShortName": "lock_on.wav",
-        "Path": "SFX/lock_on_3F75BDB9.wem"
+        "Path": "SFX\\lock_on_3F75BDB9.wem"
        }
       ]
      },
@@ -97,25 +97,25 @@
         "Id": "28496303",
         "Language": "SFX",
         "ShortName": "capture_tick_02.wav",
-        "Path": "SFX/capture_tick_02_3F75BDB9.wem"
+        "Path": "SFX\\capture_tick_02_3F75BDB9.wem"
        },
        {
         "Id": "382188851",
         "Language": "SFX",
         "ShortName": "capture_tick_03.wav",
-        "Path": "SFX/capture_tick_03_3F75BDB9.wem"
+        "Path": "SFX\\capture_tick_03_3F75BDB9.wem"
        },
        {
         "Id": "395067156",
         "Language": "SFX",
         "ShortName": "capture_tick_01.wav",
-        "Path": "SFX/capture_tick_01_3F75BDB9.wem"
+        "Path": "SFX\\capture_tick_01_3F75BDB9.wem"
        },
        {
         "Id": "875872732",
         "Language": "SFX",
         "ShortName": "capture_tick_04.wav",
-        "Path": "SFX/capture_tick_04_3F75BDB9.wem"
+        "Path": "SFX\\capture_tick_04_3F75BDB9.wem"
        }
       ]
      },
@@ -129,31 +129,31 @@
         "Id": "28496303",
         "Language": "SFX",
         "ShortName": "capture_tick_02.wav",
-        "Path": "SFX/capture_tick_02_3F75BDB9.wem"
+        "Path": "SFX\\capture_tick_02_3F75BDB9.wem"
        },
        {
         "Id": "382188851",
         "Language": "SFX",
         "ShortName": "capture_tick_03.wav",
-        "Path": "SFX/capture_tick_03_3F75BDB9.wem"
+        "Path": "SFX\\capture_tick_03_3F75BDB9.wem"
        },
        {
         "Id": "395067156",
         "Language": "SFX",
         "ShortName": "capture_tick_01.wav",
-        "Path": "SFX/capture_tick_01_3F75BDB9.wem"
+        "Path": "SFX\\capture_tick_01_3F75BDB9.wem"
        },
        {
         "Id": "875872732",
         "Language": "SFX",
         "ShortName": "capture_tick_04.wav",
-        "Path": "SFX/capture_tick_04_3F75BDB9.wem"
+        "Path": "SFX\\capture_tick_04_3F75BDB9.wem"
        },
        {
         "Id": "985654641",
         "Language": "SFX",
         "ShortName": "sirene_01.wav",
-        "Path": "SFX/sirene_01_3F75BDB9.wem"
+        "Path": "SFX\\sirene_01_3F75BDB9.wem"
        }
       ]
      },
@@ -169,13 +169,13 @@
         "Id": "876724794",
         "Language": "SFX",
         "ShortName": "capture_end.wav",
-        "Path": "SFX/capture_end_3F75BDB9.wem"
+        "Path": "SFX\\capture_end_3F75BDB9.wem"
        },
        {
         "Id": "992058246",
         "Language": "SFX",
         "ShortName": "capture_end_01.wav",
-        "Path": "SFX/capture_end_01_3F75BDB9.wem"
+        "Path": "SFX\\capture_end_01_3F75BDB9.wem"
        }
       ]
      },
@@ -191,7 +191,7 @@
         "Id": "573612984",
         "Language": "SFX",
         "ShortName": "shot_no.wav",
-        "Path": "SFX/shot_no_3F75BDB9.wem"
+        "Path": "SFX\\shot_no_3F75BDB9.wem"
        }
       ]
      },
@@ -207,7 +207,7 @@
         "Id": "409886364",
         "Language": "SFX",
         "ShortName": "shot_no_no.wav",
-        "Path": "SFX/shot_no_no_3F75BDB9.wem"
+        "Path": "SFX\\shot_no_no_3F75BDB9.wem"
        }
       ]
      },
@@ -223,7 +223,7 @@
         "Id": "598247430",
         "Language": "SFX",
         "ShortName": "shot_yes.wav",
-        "Path": "SFX/shot_yes_3F75BDB9.wem"
+        "Path": "SFX\\shot_yes_3F75BDB9.wem"
        }
       ]
      },
@@ -239,7 +239,7 @@
         "Id": "180540657",
         "Language": "SFX",
         "ShortName": "shot_yes_yes.wav",
-        "Path": "SFX/shot_yes_yes_3F75BDB9.wem"
+        "Path": "SFX\\shot_yes_yes_3F75BDB9.wem"
        }
       ]
      },
@@ -255,7 +255,7 @@
         "Id": "204971993",
         "Language": "SFX",
         "ShortName": "chat_all.wav",
-        "Path": "SFX/chat_all_3F75BDB9.wem"
+        "Path": "SFX\\chat_all_3F75BDB9.wem"
        }
       ]
      },
@@ -271,7 +271,7 @@
         "Id": "694948402",
         "Language": "SFX",
         "ShortName": "chat_allies.wav",
-        "Path": "SFX/chat_allies_3F75BDB9.wem"
+        "Path": "SFX\\chat_allies_3F75BDB9.wem"
        }
       ]
      },
@@ -287,7 +287,7 @@
         "Id": "894811318",
         "Language": "SFX",
         "ShortName": "chat_squad.wav",
-        "Path": "SFX/chat_squad_3F75BDB9.wem"
+        "Path": "SFX\\chat_squad_3F75BDB9.wem"
        }
       ]
      },
@@ -303,7 +303,7 @@
         "Id": "204971993",
         "Language": "SFX",
         "ShortName": "chat_all.wav",
-        "Path": "SFX/chat_all_3F75BDB9.wem"
+        "Path": "SFX\\chat_all_3F75BDB9.wem"
        }
       ]
      },
@@ -319,7 +319,7 @@
         "Id": "694948402",
         "Language": "SFX",
         "ShortName": "chat_allies.wav",
-        "Path": "SFX/chat_allies_3F75BDB9.wem"
+        "Path": "SFX\\chat_allies_3F75BDB9.wem"
        }
       ]
      },
@@ -335,7 +335,7 @@
         "Id": "894811318",
         "Language": "SFX",
         "ShortName": "chat_squad.wav",
-        "Path": "SFX/chat_squad_3F75BDB9.wem"
+        "Path": "SFX\\chat_squad_3F75BDB9.wem"
        }
       ]
      },
@@ -351,7 +351,7 @@
         "Id": "392863622",
         "Language": "SFX",
         "ShortName": "spot.wav",
-        "Path": "SFX/spot_3F75BDB9.wem"
+        "Path": "SFX\\spot_3F75BDB9.wem"
        }
       ]
      },
@@ -367,7 +367,7 @@
         "Id": "169751699",
         "Language": "SFX",
         "ShortName": "fire_extinguisher_01.wav",
-        "Path": "SFX/fire_extinguisher_01_3F75BDB9.wem"
+        "Path": "SFX\\fire_extinguisher_01_3F75BDB9.wem"
        }
       ]
      },
@@ -383,7 +383,7 @@
         "Id": "73388699",
         "Language": "SFX",
         "ShortName": "furious_off.wav",
-        "Path": "SFX/furious_off_3F75BDB9.wem"
+        "Path": "SFX\\furious_off_3F75BDB9.wem"
        }
       ]
      },
@@ -399,7 +399,29 @@
         "Id": "611927988",
         "Language": "SFX",
         "ShortName": "furious.wav",
-        "Path": "SFX/furious_3F75BDB9.wem"
+        "Path": "SFX\\furious_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3860120805",
+      "Name": "RXD_GUI_notifications_FX_gun_reloaded",
+      "ObjectPath": "\\Events\\Reload\\RXD_GUI_notifications_FX_gun_reloaded",
+      "DurationType": "OneShot",
+      "DurationMin": "2.390646",
+      "DurationMax": "3.145969",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "626301005",
+        "Language": "SFX",
+        "ShortName": "Loaded_1.wav",
+        "Path": "SFX\\Loaded_1_3F75BDB9.wem"
+       },
+       {
+        "Id": "1017699276",
+        "Language": "SFX",
+        "ShortName": "Loaded_2.wav",
+        "Path": "SFX\\Loaded_2_3F75BDB9.wem"
        }
       ]
      },
@@ -415,7 +437,7 @@
         "Id": "210474804",
         "Language": "SFX",
         "ShortName": "sixth_02.wav",
-        "Path": "SFX/sixth_02_3F75BDB9.wem"
+        "Path": "SFX\\sixth_02_3F75BDB9.wem"
        }
       ]
      },
@@ -431,13 +453,13 @@
         "Id": "567295875",
         "Language": "SFX",
         "ShortName": "564184870.wav",
-        "Path": "SFX/564184870_3F75BDB9.wem"
+        "Path": "SFX\\564184870_3F75BDB9.wem"
        },
        {
         "Id": "597250641",
         "Language": "SFX",
         "ShortName": "442390012.wav",
-        "Path": "SFX/442390012_3F75BDB9.wem"
+        "Path": "SFX\\442390012_3F75BDB9.wem"
        }
       ]
      },
@@ -453,7 +475,7 @@
         "Id": "53094129",
         "Language": "SFX",
         "ShortName": "713454727.wav",
-        "Path": "SFX/713454727_3F75BDB9.wem"
+        "Path": "SFX\\713454727_3F75BDB9.wem"
        }
       ]
      },
@@ -469,7 +491,7 @@
         "Id": "120008344",
         "Language": "SFX",
         "ShortName": "perk_shooter1.wav",
-        "Path": "SFX/perk_shooter1_3F75BDB9.wem"
+        "Path": "SFX\\perk_shooter1_3F75BDB9.wem"
        }
       ]
      },
@@ -485,7 +507,7 @@
         "Id": "845555935",
         "Language": "SFX",
         "ShortName": "perk_shooter_max.wav",
-        "Path": "SFX/perk_shooter_max_3F75BDB9.wem"
+        "Path": "SFX\\perk_shooter_max_3F75BDB9.wem"
        }
       ]
      },
@@ -501,7 +523,7 @@
         "Id": "96317382",
         "Language": "SFX",
         "ShortName": "882734335.wav",
-        "Path": "SFX/882734335_3F75BDB9.wem"
+        "Path": "SFX\\882734335_3F75BDB9.wem"
        }
       ]
      },
@@ -517,7 +539,7 @@
         "Id": "96317382",
         "Language": "SFX",
         "ShortName": "882734335.wav",
-        "Path": "SFX/882734335_3F75BDB9.wem"
+        "Path": "SFX\\882734335_3F75BDB9.wem"
        }
       ]
      },
@@ -533,7 +555,7 @@
         "Id": "47423248",
         "Language": "SFX",
         "ShortName": "196373658.wav",
-        "Path": "SFX/196373658_3F75BDB9.wem"
+        "Path": "SFX\\196373658_3F75BDB9.wem"
        }
       ]
      },
@@ -549,7 +571,7 @@
         "Id": "22143279",
         "Language": "SFX",
         "ShortName": "quick_commands_close.wav",
-        "Path": "SFX/quick_commands_close_3F75BDB9.wem"
+        "Path": "SFX\\quick_commands_close_3F75BDB9.wem"
        }
       ]
      },
@@ -565,7 +587,7 @@
         "Id": "241454308",
         "Language": "SFX",
         "ShortName": "479669981.wav",
-        "Path": "SFX/479669981_3F75BDB9.wem"
+        "Path": "SFX\\479669981_3F75BDB9.wem"
        }
       ]
      },
@@ -581,7 +603,7 @@
         "Id": "96317382",
         "Language": "SFX",
         "ShortName": "882734335.wav",
-        "Path": "SFX/882734335_3F75BDB9.wem"
+        "Path": "SFX\\882734335_3F75BDB9.wem"
        }
       ]
      },
@@ -597,7 +619,7 @@
         "Id": "197011291",
         "Language": "SFX",
         "ShortName": "748651549.wav",
-        "Path": "SFX/748651549_3F75BDB9.wem"
+        "Path": "SFX\\748651549_3F75BDB9.wem"
        }
       ]
      },
@@ -613,7 +635,7 @@
         "Id": "574793031",
         "Language": "SFX",
         "ShortName": "quick_commands_open.wav",
-        "Path": "SFX/quick_commands_open_3F75BDB9.wem"
+        "Path": "SFX\\quick_commands_open_3F75BDB9.wem"
        }
       ]
      },
@@ -629,7 +651,7 @@
         "Id": "47423248",
         "Language": "SFX",
         "ShortName": "196373658.wav",
-        "Path": "SFX/196373658_3F75BDB9.wem"
+        "Path": "SFX\\196373658_3F75BDB9.wem"
        }
       ]
      },
@@ -645,7 +667,7 @@
         "Id": "241454308",
         "Language": "SFX",
         "ShortName": "479669981.wav",
-        "Path": "SFX/479669981_3F75BDB9.wem"
+        "Path": "SFX\\479669981_3F75BDB9.wem"
        }
       ]
      },
@@ -661,13 +683,13 @@
         "Id": "554648167",
         "Language": "SFX",
         "ShortName": "884436954.wav",
-        "Path": "SFX/884436954_3F75BDB9.wem"
+        "Path": "SFX\\884436954_3F75BDB9.wem"
        },
        {
         "Id": "980556924",
         "Language": "SFX",
         "ShortName": "841367790.wav",
-        "Path": "SFX/841367790_3F75BDB9.wem"
+        "Path": "SFX\\841367790_3F75BDB9.wem"
        }
       ]
      },
@@ -683,13 +705,13 @@
         "Id": "332870434",
         "Language": "SFX",
         "ShortName": "861020265.wav",
-        "Path": "SFX/861020265_3F75BDB9.wem"
+        "Path": "SFX\\861020265_3F75BDB9.wem"
        },
        {
         "Id": "480164303",
         "Language": "SFX",
         "ShortName": "964610319.wav",
-        "Path": "SFX/964610319_3F75BDB9.wem"
+        "Path": "SFX\\964610319_3F75BDB9.wem"
        }
       ]
      },
@@ -705,7 +727,7 @@
         "Id": "90036357",
         "Language": "SFX",
         "ShortName": "shell_choose_01.wav",
-        "Path": "SFX/shell_choose_01_3F75BDB9.wem"
+        "Path": "SFX\\shell_choose_01_3F75BDB9.wem"
        }
       ]
      },
@@ -721,7 +743,7 @@
         "Id": "57782841",
         "Language": "SFX",
         "ShortName": "shell_close_01.wav",
-        "Path": "SFX/shell_close_01_3F75BDB9.wem"
+        "Path": "SFX\\shell_close_01_3F75BDB9.wem"
        }
       ]
      },
@@ -737,7 +759,7 @@
         "Id": "982016693",
         "Language": "SFX",
         "ShortName": "shell_open_01.wav",
-        "Path": "SFX/shell_open_01_3F75BDB9.wem"
+        "Path": "SFX\\shell_open_01_3F75BDB9.wem"
        }
       ]
      },
@@ -753,13 +775,13 @@
         "Id": "140081581",
         "Language": "SFX",
         "ShortName": "981348322.wav",
-        "Path": "SFX/981348322_3F75BDB9.wem"
+        "Path": "SFX\\981348322_3F75BDB9.wem"
        },
        {
         "Id": "698741624",
         "Language": "SFX",
         "ShortName": "764402563.wav",
-        "Path": "SFX/764402563_3F75BDB9.wem"
+        "Path": "SFX\\764402563_3F75BDB9.wem"
        }
       ]
      },
@@ -775,7 +797,7 @@
         "Id": "797987974",
         "Language": "SFX",
         "ShortName": "snipermode_off.wav",
-        "Path": "SFX/snipermode_off_3F75BDB9.wem"
+        "Path": "SFX\\snipermode_off_3F75BDB9.wem"
        }
       ]
      },
@@ -791,7 +813,7 @@
         "Id": "818235213",
         "Language": "SFX",
         "ShortName": "snipermode_on.wav",
-        "Path": "SFX/snipermode_on_3F75BDB9.wem"
+        "Path": "SFX\\snipermode_on_3F75BDB9.wem"
        }
       ]
      },
@@ -807,7 +829,7 @@
         "Id": "844699307",
         "Language": "SFX",
         "ShortName": "164928929.wav",
-        "Path": "SFX/164928929_3F75BDB9.wem"
+        "Path": "SFX\\164928929_3F75BDB9.wem"
        }
       ]
      },
@@ -821,13 +843,13 @@
         "Id": "500630467",
         "Language": "SFX",
         "ShortName": "timer1.wav",
-        "Path": "SFX/timer1_9EDFC787.wem"
+        "Path": "SFX\\timer1_9EDFC787.wem"
        },
        {
         "Id": "1046628923",
         "Language": "SFX",
         "ShortName": "timer.wav",
-        "Path": "SFX/timer_9EDFC787.wem"
+        "Path": "SFX\\timer_9EDFC787.wem"
        }
       ]
      },
@@ -841,13 +863,13 @@
         "Id": "70971940",
         "Language": "SFX",
         "ShortName": "loop_no.wav",
-        "Path": "SFX/loop_no_3F75BDB9.wem"
+        "Path": "SFX\\loop_no_3F75BDB9.wem"
        },
        {
         "Id": "295843263",
         "Language": "SFX",
         "ShortName": "danger.wav",
-        "Path": "SFX/danger_3F75BDB9.wem"
+        "Path": "SFX\\danger_3F75BDB9.wem"
        }
       ]
      },
@@ -861,13 +883,13 @@
         "Id": "295843263",
         "Language": "SFX",
         "ShortName": "danger.wav",
-        "Path": "SFX/danger_3F75BDB9.wem"
+        "Path": "SFX\\danger_3F75BDB9.wem"
        },
        {
         "Id": "1038804566",
         "Language": "SFX",
         "ShortName": "loop_yes.wav",
-        "Path": "SFX/loop_yes_3F75BDB9.wem"
+        "Path": "SFX\\loop_yes_3F75BDB9.wem"
        }
       ]
      },
@@ -883,7 +905,7 @@
         "Id": "259782472",
         "Language": "SFX",
         "ShortName": "zoom_in.wav",
-        "Path": "SFX/zoom_in_3F75BDB9.wem"
+        "Path": "SFX\\zoom_in_3F75BDB9.wem"
        }
       ]
      },
@@ -899,7 +921,7 @@
         "Id": "463979137",
         "Language": "SFX",
         "ShortName": "zoom_out.wav",
-        "Path": "SFX/zoom_out_3F75BDB9.wem"
+        "Path": "SFX\\zoom_out_3F75BDB9.wem"
        }
       ]
      }
@@ -920,7 +942,7 @@
    {
     "Id": "1355168291",
     "Language": "SFX",
-    "Hash": "3325129555",
+    "Hash": "2412002831",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk"

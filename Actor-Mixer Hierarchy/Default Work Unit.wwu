@@ -2885,6 +2885,98 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</BlendContainer>
+						<RandomSequenceContainer Name="reload" ID="{67CEF022-E5A4-4CF9-895D-D8F5A9712F73}" ShortID="138290727">
+							<PropertyList>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="reload" ID="{05FB6B9B-08DF-4720-988D-14BED0F13DF1}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Loaded_1" ID="{6BA0C0F2-367A-436D-8EBC-C9CE14517E94}" ShortID="255693207">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Loaded_1" ID="{4A8BABC6-2CFA-4976-AB97-CF00AE01EEB5}">
+											<Language>SFX</Language>
+											<AudioFile>Loaded_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="626301005"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Loaded_1" ID="{4A8BABC6-2CFA-4976-AB97-CF00AE01EEB5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Loaded_2" ID="{217704CD-FB97-4879-9A09-E25572DC6927}" ShortID="876294070">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Loaded_2" ID="{53589E70-C7FD-4FA1-AAAB-2918CE9D86F9}">
+											<Language>SFX</Language>
+											<AudioFile>Loaded_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1017699276"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Loaded_2" ID="{53589E70-C7FD-4FA1-AAAB-2918CE9D86F9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="STATE_view_play_mode" ID="{724E58E7-59D1-4671-9356-B633DEDB53F9}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="STATE_view_play_mode_sniper" ID="{28384EC5-E7AE-494D-8DF4-BFF3B676B8CC}"/>
+										<CustomState Name="" ID="{04F303AF-999F-44A9-8375-873F4C659895}" ShortID="299915168"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="STATE_view_play_mode_arcade" ID="{13248C08-81CA-4C92-96B4-B17F94BCFD5C}"/>
+										<CustomState Name="" ID="{259B7D13-6BC2-4106-A480-8C7934469518}" ShortID="813401776">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="50"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Result_BGM" ID="{3854D72E-FDF1-4706-8EF5-F84F41E8BD0E}" ShortID="382211133">
@@ -44417,183 +44509,6 @@
 								</Folder>
 								<Folder Name="Crew_Voice_SE" ID="{0C308E96-9128-4CF9-9835-B27C12191596}" ShortID="614234607">
 									<ChildrenList>
-										<RandomSequenceContainer Name="Reload_SE" ID="{67CEF022-E5A4-4CF9-895D-D8F5A9712F73}" ShortID="138290727">
-											<PropertyList>
-												<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
-												<Property Name="MaxSoundPerInstance" Type="int16">
-													<ValueList>
-														<Value>1</Value>
-													</ValueList>
-												</Property>
-												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-												<Property Name="OverrideOutput" Type="bool" Value="True"/>
-												<Property Name="UseMaxSoundPerInstance" Type="bool">
-													<ValueList>
-														<Value>True</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="reload" ID="{05FB6B9B-08DF-4720-988D-14BED0F13DF1}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="reload_se_01" ID="{92842E9C-14B0-46AA-B702-1903AC6C9E9F}" ShortID="463044156">
-													<PropertyList>
-														<Property Name="IsVoice" Type="bool" Value="True"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22E4C728-C831-4A42-BF9E-42B59CAC7C97}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="reload_se_01" ID="{E25FE9CD-F902-424C-82E4-E00F93290046}">
-															<Language>ja</Language>
-															<AudioFile>reload_se_01.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="324207737"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="reload_se_01" ID="{E25FE9CD-F902-424C-82E4-E00F93290046}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="reload_se_02" ID="{E0D1F32C-9690-4718-B7BE-71511C9F5D60}" ShortID="362017021">
-													<PropertyList>
-														<Property Name="IsVoice" Type="bool" Value="True"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22E4C728-C831-4A42-BF9E-42B59CAC7C97}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="reload_se_02" ID="{96A3DE4E-AC50-4025-9C5A-F98321AA45C6}">
-															<Language>ja</Language>
-															<AudioFile>reload_se_02.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="863107580"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="reload_se_02" ID="{96A3DE4E-AC50-4025-9C5A-F98321AA45C6}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="reload_se_03" ID="{9CF13412-76AE-4C16-A144-3CA5C31749D2}" ShortID="445768270">
-													<PropertyList>
-														<Property Name="IsVoice" Type="bool" Value="True"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22E4C728-C831-4A42-BF9E-42B59CAC7C97}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="reload_se_03" ID="{015445B5-4ABB-492E-956F-CD04C3CC9F71}">
-															<Language>ja</Language>
-															<AudioFile>reload_se_03.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="240238046"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="reload_se_03" ID="{015445B5-4ABB-492E-956F-CD04C3CC9F71}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="reload_se_04" ID="{4F97D628-DBC7-4129-BD37-941144C73B47}" ShortID="656871970">
-													<PropertyList>
-														<Property Name="IsVoice" Type="bool" Value="True"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22E4C728-C831-4A42-BF9E-42B59CAC7C97}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="reload_se_04" ID="{346B43C9-505A-461F-A574-FF83F9E86BAE}">
-															<Language>ja</Language>
-															<AudioFile>reload_se_04.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="185464170"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="reload_se_04" ID="{346B43C9-505A-461F-A574-FF83F9E86BAE}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="reload_se_05" ID="{0A76F3AF-3AE1-4429-B2FE-82182065B48B}" ShortID="907029009">
-													<PropertyList>
-														<Property Name="IsVoice" Type="bool" Value="True"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22E4C728-C831-4A42-BF9E-42B59CAC7C97}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="reload_se_05" ID="{8C7B3C1C-EE3C-4833-9569-C04DDD34EAF6}">
-															<Language>ja</Language>
-															<AudioFile>reload_se_05.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="728939466"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="reload_se_05" ID="{8C7B3C1C-EE3C-4833-9569-C04DDD34EAF6}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="reload_se_06" ID="{72CD9FB1-12FD-4AF3-A287-7ACF6FCB9F2A}" ShortID="742865738">
-													<PropertyList>
-														<Property Name="IsVoice" Type="bool" Value="True"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22E4C728-C831-4A42-BF9E-42B59CAC7C97}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="reload_se_06" ID="{13793BCC-1ECA-495C-A388-222B333A6829}">
-															<Language>ja</Language>
-															<AudioFile>reload_se_06.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="53902646"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="reload_se_06" ID="{13793BCC-1ECA-495C-A388-222B333A6829}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Projectile_SE" ID="{45D0B6C6-A5CF-406F-B533-917AF191CA9A}" ShortID="965426293">
 											<PropertyList>
 												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>

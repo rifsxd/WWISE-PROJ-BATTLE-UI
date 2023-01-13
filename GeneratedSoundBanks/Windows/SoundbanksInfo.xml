@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>D:\Github\WWISE-PROJ-BATTLE-UI\</ProjectRoot>
-		<SourceFilesRoot>D:\Github\WWISE-PROJ-BATTLE-UI\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Github\WWISE-PROJ-BATTLE-UI\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>F:\Github\WWISE-PROJ-BATTLE-UI\</ProjectRoot>
+		<SourceFilesRoot>F:\Github\WWISE-PROJ-BATTLE-UI\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>F:\Github\WWISE-PROJ-BATTLE-UI\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Github\WWISE-PROJ-BATTLE-UI\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>F:\Github\WWISE-PROJ-BATTLE-UI\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="586786179" Language="SFX" Hash="4290012321">
+		<SoundBank Id="586786179" Language="SFX" Hash="363984438">
 			<ObjectPath>\SoundBanks\Default Work Unit\RXD_BATTLE_UI</ObjectPath>
 			<ShortName>RXD_BATTLE_UI</ShortName>
 			<Path>RXD_BATTLE_UI.bnk</Path>
@@ -20,7 +20,7 @@
 					<IncludedMemoryFiles>
 						<File Id="481380577" Language="SFX">
 							<ShortName>adrenalin_off.wav</ShortName>
-							<Path>SFX/adrenalin_off_3F75BDB9.wem</Path>
+							<Path>SFX\adrenalin_off_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -28,7 +28,7 @@
 					<IncludedMemoryFiles>
 						<File Id="936753822" Language="SFX">
 							<ShortName>adrenalin.wav</ShortName>
-							<Path>SFX/adrenalin_3F75BDB9.wem</Path>
+							<Path>SFX\adrenalin_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -36,7 +36,7 @@
 					<IncludedMemoryFiles>
 						<File Id="247284545" Language="SFX">
 							<ShortName>unlock.wav</ShortName>
-							<Path>SFX/unlock_3F75BDB9.wem</Path>
+							<Path>SFX\unlock_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -44,7 +44,7 @@
 					<IncludedMemoryFiles>
 						<File Id="549286836" Language="SFX">
 							<ShortName>lock_on.wav</ShortName>
-							<Path>SFX/lock_on_3F75BDB9.wem</Path>
+							<Path>SFX\lock_on_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -52,19 +52,19 @@
 					<IncludedMemoryFiles>
 						<File Id="28496303" Language="SFX">
 							<ShortName>capture_tick_02.wav</ShortName>
-							<Path>SFX/capture_tick_02_3F75BDB9.wem</Path>
+							<Path>SFX\capture_tick_02_3F75BDB9.wem</Path>
 						</File>
 						<File Id="382188851" Language="SFX">
 							<ShortName>capture_tick_03.wav</ShortName>
-							<Path>SFX/capture_tick_03_3F75BDB9.wem</Path>
+							<Path>SFX\capture_tick_03_3F75BDB9.wem</Path>
 						</File>
 						<File Id="395067156" Language="SFX">
 							<ShortName>capture_tick_01.wav</ShortName>
-							<Path>SFX/capture_tick_01_3F75BDB9.wem</Path>
+							<Path>SFX\capture_tick_01_3F75BDB9.wem</Path>
 						</File>
 						<File Id="875872732" Language="SFX">
 							<ShortName>capture_tick_04.wav</ShortName>
-							<Path>SFX/capture_tick_04_3F75BDB9.wem</Path>
+							<Path>SFX\capture_tick_04_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -72,23 +72,23 @@
 					<IncludedMemoryFiles>
 						<File Id="28496303" Language="SFX">
 							<ShortName>capture_tick_02.wav</ShortName>
-							<Path>SFX/capture_tick_02_3F75BDB9.wem</Path>
+							<Path>SFX\capture_tick_02_3F75BDB9.wem</Path>
 						</File>
 						<File Id="382188851" Language="SFX">
 							<ShortName>capture_tick_03.wav</ShortName>
-							<Path>SFX/capture_tick_03_3F75BDB9.wem</Path>
+							<Path>SFX\capture_tick_03_3F75BDB9.wem</Path>
 						</File>
 						<File Id="395067156" Language="SFX">
 							<ShortName>capture_tick_01.wav</ShortName>
-							<Path>SFX/capture_tick_01_3F75BDB9.wem</Path>
+							<Path>SFX\capture_tick_01_3F75BDB9.wem</Path>
 						</File>
 						<File Id="875872732" Language="SFX">
 							<ShortName>capture_tick_04.wav</ShortName>
-							<Path>SFX/capture_tick_04_3F75BDB9.wem</Path>
+							<Path>SFX\capture_tick_04_3F75BDB9.wem</Path>
 						</File>
 						<File Id="985654641" Language="SFX">
 							<ShortName>sirene_01.wav</ShortName>
-							<Path>SFX/sirene_01_3F75BDB9.wem</Path>
+							<Path>SFX\sirene_01_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -96,11 +96,11 @@
 					<IncludedMemoryFiles>
 						<File Id="876724794" Language="SFX">
 							<ShortName>capture_end.wav</ShortName>
-							<Path>SFX/capture_end_3F75BDB9.wem</Path>
+							<Path>SFX\capture_end_3F75BDB9.wem</Path>
 						</File>
 						<File Id="992058246" Language="SFX">
 							<ShortName>capture_end_01.wav</ShortName>
-							<Path>SFX/capture_end_01_3F75BDB9.wem</Path>
+							<Path>SFX\capture_end_01_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -108,7 +108,7 @@
 					<IncludedMemoryFiles>
 						<File Id="573612984" Language="SFX">
 							<ShortName>shot_no.wav</ShortName>
-							<Path>SFX/shot_no_3F75BDB9.wem</Path>
+							<Path>SFX\shot_no_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -116,7 +116,7 @@
 					<IncludedMemoryFiles>
 						<File Id="409886364" Language="SFX">
 							<ShortName>shot_no_no.wav</ShortName>
-							<Path>SFX/shot_no_no_3F75BDB9.wem</Path>
+							<Path>SFX\shot_no_no_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -124,7 +124,7 @@
 					<IncludedMemoryFiles>
 						<File Id="598247430" Language="SFX">
 							<ShortName>shot_yes.wav</ShortName>
-							<Path>SFX/shot_yes_3F75BDB9.wem</Path>
+							<Path>SFX\shot_yes_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -132,7 +132,7 @@
 					<IncludedMemoryFiles>
 						<File Id="180540657" Language="SFX">
 							<ShortName>shot_yes_yes.wav</ShortName>
-							<Path>SFX/shot_yes_yes_3F75BDB9.wem</Path>
+							<Path>SFX\shot_yes_yes_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -140,7 +140,7 @@
 					<IncludedMemoryFiles>
 						<File Id="204971993" Language="SFX">
 							<ShortName>chat_all.wav</ShortName>
-							<Path>SFX/chat_all_3F75BDB9.wem</Path>
+							<Path>SFX\chat_all_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -148,7 +148,7 @@
 					<IncludedMemoryFiles>
 						<File Id="694948402" Language="SFX">
 							<ShortName>chat_allies.wav</ShortName>
-							<Path>SFX/chat_allies_3F75BDB9.wem</Path>
+							<Path>SFX\chat_allies_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -156,7 +156,7 @@
 					<IncludedMemoryFiles>
 						<File Id="894811318" Language="SFX">
 							<ShortName>chat_squad.wav</ShortName>
-							<Path>SFX/chat_squad_3F75BDB9.wem</Path>
+							<Path>SFX\chat_squad_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -164,7 +164,7 @@
 					<IncludedMemoryFiles>
 						<File Id="204971993" Language="SFX">
 							<ShortName>chat_all.wav</ShortName>
-							<Path>SFX/chat_all_3F75BDB9.wem</Path>
+							<Path>SFX\chat_all_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -172,7 +172,7 @@
 					<IncludedMemoryFiles>
 						<File Id="694948402" Language="SFX">
 							<ShortName>chat_allies.wav</ShortName>
-							<Path>SFX/chat_allies_3F75BDB9.wem</Path>
+							<Path>SFX\chat_allies_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -180,7 +180,7 @@
 					<IncludedMemoryFiles>
 						<File Id="894811318" Language="SFX">
 							<ShortName>chat_squad.wav</ShortName>
-							<Path>SFX/chat_squad_3F75BDB9.wem</Path>
+							<Path>SFX\chat_squad_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -188,7 +188,7 @@
 					<IncludedMemoryFiles>
 						<File Id="392863622" Language="SFX">
 							<ShortName>spot.wav</ShortName>
-							<Path>SFX/spot_3F75BDB9.wem</Path>
+							<Path>SFX\spot_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -196,7 +196,7 @@
 					<IncludedMemoryFiles>
 						<File Id="169751699" Language="SFX">
 							<ShortName>fire_extinguisher_01.wav</ShortName>
-							<Path>SFX/fire_extinguisher_01_3F75BDB9.wem</Path>
+							<Path>SFX\fire_extinguisher_01_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -204,7 +204,7 @@
 					<IncludedMemoryFiles>
 						<File Id="73388699" Language="SFX">
 							<ShortName>furious_off.wav</ShortName>
-							<Path>SFX/furious_off_3F75BDB9.wem</Path>
+							<Path>SFX\furious_off_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -212,7 +212,19 @@
 					<IncludedMemoryFiles>
 						<File Id="611927988" Language="SFX">
 							<ShortName>furious.wav</ShortName>
-							<Path>SFX/furious_3F75BDB9.wem</Path>
+							<Path>SFX\furious_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3860120805" Name="RXD_GUI_notifications_FX_gun_reloaded" ObjectPath="\Events\Reload\RXD_GUI_notifications_FX_gun_reloaded" DurationType="OneShot" DurationMin="2.390646" DurationMax="3.145969">
+					<IncludedMemoryFiles>
+						<File Id="626301005" Language="SFX">
+							<ShortName>Loaded_1.wav</ShortName>
+							<Path>SFX\Loaded_1_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1017699276" Language="SFX">
+							<ShortName>Loaded_2.wav</ShortName>
+							<Path>SFX\Loaded_2_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -220,7 +232,7 @@
 					<IncludedMemoryFiles>
 						<File Id="210474804" Language="SFX">
 							<ShortName>sixth_02.wav</ShortName>
-							<Path>SFX/sixth_02_3F75BDB9.wem</Path>
+							<Path>SFX\sixth_02_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -228,11 +240,11 @@
 					<IncludedMemoryFiles>
 						<File Id="567295875" Language="SFX">
 							<ShortName>564184870.wav</ShortName>
-							<Path>SFX/564184870_3F75BDB9.wem</Path>
+							<Path>SFX\564184870_3F75BDB9.wem</Path>
 						</File>
 						<File Id="597250641" Language="SFX">
 							<ShortName>442390012.wav</ShortName>
-							<Path>SFX/442390012_3F75BDB9.wem</Path>
+							<Path>SFX\442390012_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -240,7 +252,7 @@
 					<IncludedMemoryFiles>
 						<File Id="53094129" Language="SFX">
 							<ShortName>713454727.wav</ShortName>
-							<Path>SFX/713454727_3F75BDB9.wem</Path>
+							<Path>SFX\713454727_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -248,7 +260,7 @@
 					<IncludedMemoryFiles>
 						<File Id="120008344" Language="SFX">
 							<ShortName>perk_shooter1.wav</ShortName>
-							<Path>SFX/perk_shooter1_3F75BDB9.wem</Path>
+							<Path>SFX\perk_shooter1_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -256,7 +268,7 @@
 					<IncludedMemoryFiles>
 						<File Id="845555935" Language="SFX">
 							<ShortName>perk_shooter_max.wav</ShortName>
-							<Path>SFX/perk_shooter_max_3F75BDB9.wem</Path>
+							<Path>SFX\perk_shooter_max_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -264,7 +276,7 @@
 					<IncludedMemoryFiles>
 						<File Id="96317382" Language="SFX">
 							<ShortName>882734335.wav</ShortName>
-							<Path>SFX/882734335_3F75BDB9.wem</Path>
+							<Path>SFX\882734335_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -272,7 +284,7 @@
 					<IncludedMemoryFiles>
 						<File Id="96317382" Language="SFX">
 							<ShortName>882734335.wav</ShortName>
-							<Path>SFX/882734335_3F75BDB9.wem</Path>
+							<Path>SFX\882734335_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -280,7 +292,7 @@
 					<IncludedMemoryFiles>
 						<File Id="47423248" Language="SFX">
 							<ShortName>196373658.wav</ShortName>
-							<Path>SFX/196373658_3F75BDB9.wem</Path>
+							<Path>SFX\196373658_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -288,7 +300,7 @@
 					<IncludedMemoryFiles>
 						<File Id="22143279" Language="SFX">
 							<ShortName>quick_commands_close.wav</ShortName>
-							<Path>SFX/quick_commands_close_3F75BDB9.wem</Path>
+							<Path>SFX\quick_commands_close_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -296,7 +308,7 @@
 					<IncludedMemoryFiles>
 						<File Id="241454308" Language="SFX">
 							<ShortName>479669981.wav</ShortName>
-							<Path>SFX/479669981_3F75BDB9.wem</Path>
+							<Path>SFX\479669981_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -304,7 +316,7 @@
 					<IncludedMemoryFiles>
 						<File Id="96317382" Language="SFX">
 							<ShortName>882734335.wav</ShortName>
-							<Path>SFX/882734335_3F75BDB9.wem</Path>
+							<Path>SFX\882734335_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -312,7 +324,7 @@
 					<IncludedMemoryFiles>
 						<File Id="197011291" Language="SFX">
 							<ShortName>748651549.wav</ShortName>
-							<Path>SFX/748651549_3F75BDB9.wem</Path>
+							<Path>SFX\748651549_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -320,7 +332,7 @@
 					<IncludedMemoryFiles>
 						<File Id="574793031" Language="SFX">
 							<ShortName>quick_commands_open.wav</ShortName>
-							<Path>SFX/quick_commands_open_3F75BDB9.wem</Path>
+							<Path>SFX\quick_commands_open_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -328,7 +340,7 @@
 					<IncludedMemoryFiles>
 						<File Id="47423248" Language="SFX">
 							<ShortName>196373658.wav</ShortName>
-							<Path>SFX/196373658_3F75BDB9.wem</Path>
+							<Path>SFX\196373658_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -336,7 +348,7 @@
 					<IncludedMemoryFiles>
 						<File Id="241454308" Language="SFX">
 							<ShortName>479669981.wav</ShortName>
-							<Path>SFX/479669981_3F75BDB9.wem</Path>
+							<Path>SFX\479669981_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -344,11 +356,11 @@
 					<IncludedMemoryFiles>
 						<File Id="554648167" Language="SFX">
 							<ShortName>884436954.wav</ShortName>
-							<Path>SFX/884436954_3F75BDB9.wem</Path>
+							<Path>SFX\884436954_3F75BDB9.wem</Path>
 						</File>
 						<File Id="980556924" Language="SFX">
 							<ShortName>841367790.wav</ShortName>
-							<Path>SFX/841367790_3F75BDB9.wem</Path>
+							<Path>SFX\841367790_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -356,11 +368,11 @@
 					<IncludedMemoryFiles>
 						<File Id="332870434" Language="SFX">
 							<ShortName>861020265.wav</ShortName>
-							<Path>SFX/861020265_3F75BDB9.wem</Path>
+							<Path>SFX\861020265_3F75BDB9.wem</Path>
 						</File>
 						<File Id="480164303" Language="SFX">
 							<ShortName>964610319.wav</ShortName>
-							<Path>SFX/964610319_3F75BDB9.wem</Path>
+							<Path>SFX\964610319_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -368,7 +380,7 @@
 					<IncludedMemoryFiles>
 						<File Id="90036357" Language="SFX">
 							<ShortName>shell_choose_01.wav</ShortName>
-							<Path>SFX/shell_choose_01_3F75BDB9.wem</Path>
+							<Path>SFX\shell_choose_01_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -376,7 +388,7 @@
 					<IncludedMemoryFiles>
 						<File Id="57782841" Language="SFX">
 							<ShortName>shell_close_01.wav</ShortName>
-							<Path>SFX/shell_close_01_3F75BDB9.wem</Path>
+							<Path>SFX\shell_close_01_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -384,7 +396,7 @@
 					<IncludedMemoryFiles>
 						<File Id="982016693" Language="SFX">
 							<ShortName>shell_open_01.wav</ShortName>
-							<Path>SFX/shell_open_01_3F75BDB9.wem</Path>
+							<Path>SFX\shell_open_01_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -392,11 +404,11 @@
 					<IncludedMemoryFiles>
 						<File Id="140081581" Language="SFX">
 							<ShortName>981348322.wav</ShortName>
-							<Path>SFX/981348322_3F75BDB9.wem</Path>
+							<Path>SFX\981348322_3F75BDB9.wem</Path>
 						</File>
 						<File Id="698741624" Language="SFX">
 							<ShortName>764402563.wav</ShortName>
-							<Path>SFX/764402563_3F75BDB9.wem</Path>
+							<Path>SFX\764402563_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -404,7 +416,7 @@
 					<IncludedMemoryFiles>
 						<File Id="797987974" Language="SFX">
 							<ShortName>snipermode_off.wav</ShortName>
-							<Path>SFX/snipermode_off_3F75BDB9.wem</Path>
+							<Path>SFX\snipermode_off_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -412,7 +424,7 @@
 					<IncludedMemoryFiles>
 						<File Id="818235213" Language="SFX">
 							<ShortName>snipermode_on.wav</ShortName>
-							<Path>SFX/snipermode_on_3F75BDB9.wem</Path>
+							<Path>SFX\snipermode_on_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -420,7 +432,7 @@
 					<IncludedMemoryFiles>
 						<File Id="844699307" Language="SFX">
 							<ShortName>164928929.wav</ShortName>
-							<Path>SFX/164928929_3F75BDB9.wem</Path>
+							<Path>SFX\164928929_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -428,11 +440,11 @@
 					<IncludedMemoryFiles>
 						<File Id="500630467" Language="SFX">
 							<ShortName>timer1.wav</ShortName>
-							<Path>SFX/timer1_9EDFC787.wem</Path>
+							<Path>SFX\timer1_9EDFC787.wem</Path>
 						</File>
 						<File Id="1046628923" Language="SFX">
 							<ShortName>timer.wav</ShortName>
-							<Path>SFX/timer_9EDFC787.wem</Path>
+							<Path>SFX\timer_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -440,11 +452,11 @@
 					<IncludedMemoryFiles>
 						<File Id="70971940" Language="SFX">
 							<ShortName>loop_no.wav</ShortName>
-							<Path>SFX/loop_no_3F75BDB9.wem</Path>
+							<Path>SFX\loop_no_3F75BDB9.wem</Path>
 						</File>
 						<File Id="295843263" Language="SFX">
 							<ShortName>danger.wav</ShortName>
-							<Path>SFX/danger_3F75BDB9.wem</Path>
+							<Path>SFX\danger_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -452,11 +464,11 @@
 					<IncludedMemoryFiles>
 						<File Id="295843263" Language="SFX">
 							<ShortName>danger.wav</ShortName>
-							<Path>SFX/danger_3F75BDB9.wem</Path>
+							<Path>SFX\danger_3F75BDB9.wem</Path>
 						</File>
 						<File Id="1038804566" Language="SFX">
 							<ShortName>loop_yes.wav</ShortName>
-							<Path>SFX/loop_yes_3F75BDB9.wem</Path>
+							<Path>SFX\loop_yes_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -464,7 +476,7 @@
 					<IncludedMemoryFiles>
 						<File Id="259782472" Language="SFX">
 							<ShortName>zoom_in.wav</ShortName>
-							<Path>SFX/zoom_in_3F75BDB9.wem</Path>
+							<Path>SFX\zoom_in_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -472,7 +484,7 @@
 					<IncludedMemoryFiles>
 						<File Id="463979137" Language="SFX">
 							<ShortName>zoom_out.wav</ShortName>
-							<Path>SFX/zoom_out_3F75BDB9.wem</Path>
+							<Path>SFX\zoom_out_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -482,7 +494,7 @@
 				<GameParameter Id="3302889788" Name="percent" ObjectPath="\Game Parameters\Default Work Unit\UI\percent"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3325129555">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2412002831">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
