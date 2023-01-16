@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="586786179" Language="SFX" Hash="363984438">
+		<SoundBank Id="586786179" Language="SFX" Hash="4290012321">
 			<ObjectPath>\SoundBanks\Default Work Unit\RXD_BATTLE_UI</ObjectPath>
 			<ShortName>RXD_BATTLE_UI</ShortName>
 			<Path>RXD_BATTLE_UI.bnk</Path>
@@ -213,18 +213,6 @@
 						<File Id="611927988" Language="SFX">
 							<ShortName>furious.wav</ShortName>
 							<Path>SFX\furious_3F75BDB9.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="3860120805" Name="RXD_GUI_notifications_FX_gun_reloaded" ObjectPath="\Events\Reload\RXD_GUI_notifications_FX_gun_reloaded" DurationType="OneShot" DurationMin="2.390646" DurationMax="3.145969">
-					<IncludedMemoryFiles>
-						<File Id="626301005" Language="SFX">
-							<ShortName>Loaded_1.wav</ShortName>
-							<Path>SFX\Loaded_1_3F75BDB9.wem</Path>
-						</File>
-						<File Id="1017699276" Language="SFX">
-							<ShortName>Loaded_2.wav</ShortName>
-							<Path>SFX\Loaded_2_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

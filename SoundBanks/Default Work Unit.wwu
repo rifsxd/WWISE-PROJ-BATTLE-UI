@@ -50,7 +50,6 @@
 						<ObjectRef Name="RXD_GUI_notifications_FX_timer" ID="{8F8DC345-C28A-4D86-87C5-30B503FB5B47}" WorkUnitID="{83217B51-31E8-45EC-8B80-E155BE5DB451}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="RXD_GUI_notifications_FX_base_capture_finish" ID="{65DEB2EE-6755-4DB9-878F-B0773F15ADD5}" WorkUnitID="{83217B51-31E8-45EC-8B80-E155BE5DB451}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="RXD_GUI_notifications_FX_quick_commands_open" ID="{27431668-01FB-4DFF-B7FB-1EE6934F53DA}" WorkUnitID="{83217B51-31E8-45EC-8B80-E155BE5DB451}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="RXD_GUI_notifications_FX_gun_reloaded" ID="{A5289ACB-3CFB-4E59-B3AF-AB1578C9FC75}" WorkUnitID="{90AC83D5-EE12-429D-A81D-D0B7095AFE95}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="RXD_GUI_notifications_FX_quick_commands_attack" ID="{0878AAA5-0A99-4EBD-B05A-4F47402D05F6}" WorkUnitID="{6827BAC1-235D-4078-B3A3-5D060BBD75B8}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="RXD_GUI_notifications_FX_perk_shooter_max" ID="{A35F564F-B07B-4F5C-9F9C-10B4F773AE9F}" WorkUnitID="{83217B51-31E8-45EC-8B80-E155BE5DB451}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="RXD_GUI_notifications_FX_chat_chat_from_allies" ID="{BF147C0B-44E1-4F5F-AE60-EB3BF418CBF3}" WorkUnitID="{33E5456B-63EA-4854-B0AF-E28C2CE956A3}" Origin="Manual" Filter="7"/>

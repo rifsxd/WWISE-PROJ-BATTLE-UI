@@ -18,7 +18,7 @@
    {
     "Id": "586786179",
     "Language": "SFX",
-    "Hash": "363984438",
+    "Hash": "4290012321",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\RXD_BATTLE_UI",
     "ShortName": "RXD_BATTLE_UI",
     "Path": "RXD_BATTLE_UI.bnk",
@@ -400,28 +400,6 @@
         "Language": "SFX",
         "ShortName": "furious.wav",
         "Path": "SFX\\furious_3F75BDB9.wem"
-       }
-      ]
-     },
-     {
-      "Id": "3860120805",
-      "Name": "RXD_GUI_notifications_FX_gun_reloaded",
-      "ObjectPath": "\\Events\\Reload\\RXD_GUI_notifications_FX_gun_reloaded",
-      "DurationType": "OneShot",
-      "DurationMin": "2.390646",
-      "DurationMax": "3.145969",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "626301005",
-        "Language": "SFX",
-        "ShortName": "Loaded_1.wav",
-        "Path": "SFX\\Loaded_1_3F75BDB9.wem"
-       },
-       {
-        "Id": "1017699276",
-        "Language": "SFX",
-        "ShortName": "Loaded_2.wav",
-        "Path": "SFX\\Loaded_2_3F75BDB9.wem"
        }
       ]
      },
