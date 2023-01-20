@@ -18,11 +18,59 @@
    {
     "Id": "586786179",
     "Language": "SFX",
-    "Hash": "4290012321",
+    "Hash": "539079729",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\RXD_BATTLE_UI",
     "ShortName": "RXD_BATTLE_UI",
     "Path": "RXD_BATTLE_UI.bnk",
     "IncludedEvents": [
+     {
+      "Id": "1638964056",
+      "Name": "RXD_aftershot_defeat",
+      "ObjectPath": "\\Events\\LoadBGM\\Music\\Music_Resultscreen\\RXD_aftershot_defeat",
+      "DurationType": "OneShot",
+      "DurationMin": "19.828413",
+      "DurationMax": "19.828413",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "148893200",
+        "Language": "SFX",
+        "ShortName": "Andrius_Klimka_-_Mines_Defeat.wav",
+        "Path": "SFX\\Andrius_Klimka_-_Mines_Defeat_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1328580699",
+      "Name": "RXD_aftershot_draw",
+      "ObjectPath": "\\Events\\LoadBGM\\Music\\Music_Resultscreen\\RXD_aftershot_draw",
+      "DurationType": "OneShot",
+      "DurationMin": "19.164536",
+      "DurationMax": "19.164536",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "627953982",
+        "Language": "SFX",
+        "ShortName": "Andrius_Klimka_-_Mines_Drawn.wav",
+        "Path": "SFX\\Andrius_Klimka_-_Mines_Drawn_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1732299773",
+      "Name": "RXD_aftershot_victory",
+      "ObjectPath": "\\Events\\LoadBGM\\Music\\Music_Resultscreen\\RXD_aftershot_victory",
+      "DurationType": "OneShot",
+      "DurationMin": "20.091452",
+      "DurationMax": "20.091452",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "410332645",
+        "Language": "SFX",
+        "ShortName": "Andrius_Klimka_-_Mines_Victory.wav",
+        "Path": "SFX\\Andrius_Klimka_-_Mines_Victory_3F75BDB9.wem"
+       }
+      ]
+     },
      {
       "Id": "415363298",
       "Name": "RXD_GUI_notifications_FX_adrenalin_off",
@@ -918,12 +966,54 @@
     ]
    },
    {
-    "Id": "1355168291",
+    "Id": "2918457945",
     "Language": "SFX",
-    "Hash": "2412002831",
-    "ObjectPath": "Init",
-    "ShortName": "Init",
-    "Path": "Init.bnk"
+    "Hash": "3089017164",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\RXD_HANGAR_MUSIC",
+    "ShortName": "RXD_HANGAR_MUSIC",
+    "Path": "RXD_HANGAR_MUSIC.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2918457945",
+      "Name": "RXD_Hangar_Music",
+      "ObjectPath": "\\Events\\Hanger_BGM\\Hangar\\Hangar_1_0\\Music\\RXD_Hangar_Music",
+      "DurationType": "OneShot",
+      "DurationMin": "702.244202",
+      "DurationMax": "702.244202",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "323441583",
+        "Language": "SFX",
+        "ShortName": "Geneburn - Denial.wav",
+        "Path": "SFX\\Geneburn - Denial_3F75BDB9.wem"
+       },
+       {
+        "Id": "730497018",
+        "Language": "SFX",
+        "ShortName": "Escape From Tarkov - The Blood We Spill.wav",
+        "Path": "SFX\\Escape From Tarkov - The Blood We Spill_3F75BDB9.wem"
+       },
+       {
+        "Id": "742425016",
+        "Language": "SFX",
+        "ShortName": "Escape from Tarkov 12.10  OST - Rules of Engagement.wav",
+        "Path": "SFX\\Escape from Tarkov 12.10  OST - Rules of Engagement_3F75BDB9.wem"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "244438798",
+      "Name": "RTPC_ext_settings_volume_master_music",
+      "ObjectPath": "\\Game Parameters\\Settings\\RTPC_ext_settings_volume_master_music"
+     },
+     {
+      "Id": "3753593413",
+      "Name": "hover",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Hanger\\hover"
+     }
+    ]
    }
   ]
  }

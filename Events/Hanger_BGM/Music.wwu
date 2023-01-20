@@ -52,6 +52,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="RXD_Hangar_Music" ID="{6EE9EFC3-33AC-4A99-8820-E5E2997D55F6}">
+					<ChildrenList>
+						<Action Name="" ID="{DF1911BC-9051-4AA3-BE27-8DFECE333977}" ShortID="932416914">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RXD_BGM" ID="{073F4350-6E90-4381-8367-98E51F27A867}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
