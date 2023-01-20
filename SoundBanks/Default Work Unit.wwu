@@ -68,9 +68,9 @@
 				</SoundBank>
 				<SoundBank Name="RXD_AFTERMATH_MUSIC" ID="{AA010A2E-A841-424B-B51B-BCE8BBF3F461}">
 					<ObjectInclusionList>
-						<ObjectRef Name="RXD_aftershot_draw" ID="{7C026EE9-33CF-41CE-96A9-FE6EBA0FC859}" WorkUnitID="{E34249C7-32E9-4573-AAB0-8087C3638399}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="RXD_aftershot_victory" ID="{6B86E157-D554-4D86-981B-EAEA60E258F9}" WorkUnitID="{E34249C7-32E9-4573-AAB0-8087C3638399}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="RXD_aftershot_defeat" ID="{7ACD490A-AD1E-4E85-950F-B19ACE86A5FC}" WorkUnitID="{E34249C7-32E9-4573-AAB0-8087C3638399}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="RXD_draw" ID="{7C026EE9-33CF-41CE-96A9-FE6EBA0FC859}" WorkUnitID="{E34249C7-32E9-4573-AAB0-8087C3638399}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="RXD_victory" ID="{6B86E157-D554-4D86-981B-EAEA60E258F9}" WorkUnitID="{E34249C7-32E9-4573-AAB0-8087C3638399}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="RXD_defeat" ID="{7ACD490A-AD1E-4E85-950F-B19ACE86A5FC}" WorkUnitID="{E34249C7-32E9-4573-AAB0-8087C3638399}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

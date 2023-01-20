@@ -920,15 +920,15 @@
    {
     "Id": "1183714176",
     "Language": "SFX",
-    "Hash": "1419386281",
+    "Hash": "2804555665",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\RXD_AFTERMATH_MUSIC",
     "ShortName": "RXD_AFTERMATH_MUSIC",
     "Path": "RXD_AFTERMATH_MUSIC.bnk",
     "IncludedEvents": [
      {
-      "Id": "1638964056",
-      "Name": "RXD_aftershot_defeat",
-      "ObjectPath": "\\Events\\LoadBGM\\Music\\Music_Resultscreen\\RXD_aftershot_defeat",
+      "Id": "529965549",
+      "Name": "RXD_defeat",
+      "ObjectPath": "\\Events\\LoadBGM\\Music\\Music_Resultscreen\\RXD_defeat",
       "DurationType": "OneShot",
       "DurationMin": "19.828413",
       "DurationMax": "19.828413",
@@ -942,9 +942,9 @@
       ]
      },
      {
-      "Id": "1328580699",
-      "Name": "RXD_aftershot_draw",
-      "ObjectPath": "\\Events\\LoadBGM\\Music\\Music_Resultscreen\\RXD_aftershot_draw",
+      "Id": "3303500602",
+      "Name": "RXD_draw",
+      "ObjectPath": "\\Events\\LoadBGM\\Music\\Music_Resultscreen\\RXD_draw",
       "DurationType": "OneShot",
       "DurationMin": "19.164536",
       "DurationMax": "19.164536",
@@ -958,9 +958,9 @@
       ]
      },
      {
-      "Id": "1732299773",
-      "Name": "RXD_aftershot_victory",
-      "ObjectPath": "\\Events\\LoadBGM\\Music\\Music_Resultscreen\\RXD_aftershot_victory",
+      "Id": "4093720182",
+      "Name": "RXD_victory",
+      "ObjectPath": "\\Events\\LoadBGM\\Music\\Music_Resultscreen\\RXD_victory",
       "DurationType": "OneShot",
       "DurationMin": "20.091452",
       "DurationMax": "20.091452",
@@ -972,6 +972,13 @@
         "Path": "SFX\\Andrius_Klimka_-_Mines_Victory_3F75BDB9.wem"
        }
       ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "244438798",
+      "Name": "RTPC_ext_settings_volume_master_music",
+      "ObjectPath": "\\Game Parameters\\Settings\\RTPC_ext_settings_volume_master_music"
      }
     ]
    },

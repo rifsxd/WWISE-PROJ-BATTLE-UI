@@ -2985,6 +2985,32 @@
 							<ValueList>
 								<Value>-5</Value>
 							</ValueList>
+							<RTPCList>
+								<RTPC Name="" ID="{2815B329-DCE0-457F-A9CC-2FCA555A623A}" ShortID="975058717">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_ext_settings_volume_master_music" ID="{C41E977A-74E1-454E-9C86-0294FFF7E74E}" WorkUnitID="{1D110D10-3D4B-410B-ACE0-4B56B209EC21}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{7A86FBDC-E5B6-4D01-92DF-211412F80F10}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
