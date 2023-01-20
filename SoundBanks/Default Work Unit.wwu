@@ -64,7 +64,7 @@
 				</SoundBank>
 				<SoundBank Name="RXD_HANGAR_MUSIC" ID="{B4D814BA-FB86-4E5C-AFF4-45FF40B9D1CE}">
 					<ObjectInclusionList>
-						<ObjectRef Name="RXD_Hangar_Music" ID="{6EE9EFC3-33AC-4A99-8820-E5E2997D55F6}" WorkUnitID="{ACFF5071-489C-413D-9520-46B50623111C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="RXD_Hangar_Musics" ID="{6EE9EFC3-33AC-4A99-8820-E5E2997D55F6}" WorkUnitID="{ACFF5071-489C-413D-9520-46B50623111C}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

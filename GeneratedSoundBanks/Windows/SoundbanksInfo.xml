@@ -511,12 +511,12 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2918457945" Language="SFX" Hash="3089017164">
+		<SoundBank Id="2918457945" Language="SFX" Hash="2086391325">
 			<ObjectPath>\SoundBanks\Default Work Unit\RXD_HANGAR_MUSIC</ObjectPath>
 			<ShortName>RXD_HANGAR_MUSIC</ShortName>
 			<Path>RXD_HANGAR_MUSIC.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2918457945" Name="RXD_Hangar_Music" ObjectPath="\Events\Hanger_BGM\Hangar\Hangar_1_0\Music\RXD_Hangar_Music" DurationType="OneShot" DurationMin="702.244202" DurationMax="702.244202">
+				<Event Id="810685032" Name="RXD_Hangar_Musics" ObjectPath="\Events\Hanger_BGM\Hangar\Hangar_1_0\Music\RXD_Hangar_Musics" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="323441583" Language="SFX">
 							<ShortName>Geneburn - Denial.wav</ShortName>

@@ -45050,12 +45050,13 @@
 							<ChildrenList>
 								<RandomSequenceContainer Name="RXD_BGM" ID="{073F4350-6E90-4381-8367-98E51F27A867}" ShortID="174153080">
 									<PropertyList>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="2"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-7</Value>
+												<Value>-5</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>

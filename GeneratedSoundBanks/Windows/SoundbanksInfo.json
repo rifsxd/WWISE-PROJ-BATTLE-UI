@@ -966,20 +966,26 @@
     ]
    },
    {
+    "Id": "1355168291",
+    "Language": "SFX",
+    "Hash": "2412002831",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk"
+   },
+   {
     "Id": "2918457945",
     "Language": "SFX",
-    "Hash": "3089017164",
+    "Hash": "2086391325",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\RXD_HANGAR_MUSIC",
     "ShortName": "RXD_HANGAR_MUSIC",
     "Path": "RXD_HANGAR_MUSIC.bnk",
     "IncludedEvents": [
      {
-      "Id": "2918457945",
-      "Name": "RXD_Hangar_Music",
-      "ObjectPath": "\\Events\\Hanger_BGM\\Hangar\\Hangar_1_0\\Music\\RXD_Hangar_Music",
-      "DurationType": "OneShot",
-      "DurationMin": "702.244202",
-      "DurationMax": "702.244202",
+      "Id": "810685032",
+      "Name": "RXD_Hangar_Musics",
+      "ObjectPath": "\\Events\\Hanger_BGM\\Hangar\\Hangar_1_0\\Music\\RXD_Hangar_Musics",
+      "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
         "Id": "323441583",
