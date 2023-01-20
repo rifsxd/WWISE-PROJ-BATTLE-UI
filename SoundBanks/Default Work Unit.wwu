@@ -12,7 +12,6 @@
 						<ObjectRef Name="RXD_GUI_notifications_FX_adrenalin_start" ID="{F83C57F8-5944-4125-B552-EBC49FDE05D2}" WorkUnitID="{83217B51-31E8-45EC-8B80-E155BE5DB451}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="RXD_GUI_notifications_FX_zoom_out" ID="{03CF32C9-7627-415A-9889-B4F1A4D4B4BD}" WorkUnitID="{83217B51-31E8-45EC-8B80-E155BE5DB451}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="RXD_GUI_notifications_FX_chat_chat_to_squad" ID="{5CA0D433-C068-415B-8934-5ACE0FF78522}" WorkUnitID="{33E5456B-63EA-4854-B0AF-E28C2CE956A3}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="RXD_aftershot_draw" ID="{7C026EE9-33CF-41CE-96A9-FE6EBA0FC859}" WorkUnitID="{E34249C7-32E9-4573-AAB0-8087C3638399}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="RXD_GUI_notifications_FX_chat_chat_to_all" ID="{F59F5248-E5AC-4226-BAB1-539F6C3AA1B3}" WorkUnitID="{33E5456B-63EA-4854-B0AF-E28C2CE956A3}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="RXD_GUI_notifications_FX_victory_NPC" ID="{DADF86D1-7761-422F-8320-D829F3261066}" WorkUnitID="{6A93E6CE-D126-47C1-B1DF-1B221855DE40}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="RXD_GUI_notifications_FX_zoom_in" ID="{AE734FC9-5B8B-42FE-AD2B-F2845CAAD223}" WorkUnitID="{83217B51-31E8-45EC-8B80-E155BE5DB451}" Origin="Manual" Filter="7"/>
@@ -49,10 +48,8 @@
 						<ObjectRef Name="RXD_GUI_notifications_FX_perk_shooter" ID="{938DB8AE-D068-4D58-997F-1EEBB8024955}" WorkUnitID="{83217B51-31E8-45EC-8B80-E155BE5DB451}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="RXD_GUI_notifications_FX_snipermode_on" ID="{44BC6F8B-F8DB-4D84-BDEC-2B3E83CC3213}" WorkUnitID="{83217B51-31E8-45EC-8B80-E155BE5DB451}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="RXD_GUI_notifications_FX_timer" ID="{8F8DC345-C28A-4D86-87C5-30B503FB5B47}" WorkUnitID="{83217B51-31E8-45EC-8B80-E155BE5DB451}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="RXD_aftershot_victory" ID="{6B86E157-D554-4D86-981B-EAEA60E258F9}" WorkUnitID="{E34249C7-32E9-4573-AAB0-8087C3638399}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="RXD_GUI_notifications_FX_base_capture_finish" ID="{65DEB2EE-6755-4DB9-878F-B0773F15ADD5}" WorkUnitID="{83217B51-31E8-45EC-8B80-E155BE5DB451}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="RXD_GUI_notifications_FX_quick_commands_open" ID="{27431668-01FB-4DFF-B7FB-1EE6934F53DA}" WorkUnitID="{83217B51-31E8-45EC-8B80-E155BE5DB451}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="RXD_aftershot_defeat" ID="{7ACD490A-AD1E-4E85-950F-B19ACE86A5FC}" WorkUnitID="{E34249C7-32E9-4573-AAB0-8087C3638399}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="RXD_GUI_notifications_FX_quick_commands_attack" ID="{0878AAA5-0A99-4EBD-B05A-4F47402D05F6}" WorkUnitID="{6827BAC1-235D-4078-B3A3-5D060BBD75B8}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="RXD_GUI_notifications_FX_perk_shooter_max" ID="{A35F564F-B07B-4F5C-9F9C-10B4F773AE9F}" WorkUnitID="{83217B51-31E8-45EC-8B80-E155BE5DB451}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="RXD_GUI_notifications_FX_chat_chat_from_allies" ID="{BF147C0B-44E1-4F5F-AE60-EB3BF418CBF3}" WorkUnitID="{33E5456B-63EA-4854-B0AF-E28C2CE956A3}" Origin="Manual" Filter="7"/>
@@ -65,6 +62,15 @@
 				<SoundBank Name="RXD_HANGAR_MUSIC" ID="{B4D814BA-FB86-4E5C-AFF4-45FF40B9D1CE}">
 					<ObjectInclusionList>
 						<ObjectRef Name="RXD_Hangar_Musics" ID="{6EE9EFC3-33AC-4A99-8820-E5E2997D55F6}" WorkUnitID="{ACFF5071-489C-413D-9520-46B50623111C}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="RXD_AFTERMATH_MUSIC" ID="{AA010A2E-A841-424B-B51B-BCE8BBF3F461}">
+					<ObjectInclusionList>
+						<ObjectRef Name="RXD_aftershot_draw" ID="{7C026EE9-33CF-41CE-96A9-FE6EBA0FC859}" WorkUnitID="{E34249C7-32E9-4573-AAB0-8087C3638399}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="RXD_aftershot_victory" ID="{6B86E157-D554-4D86-981B-EAEA60E258F9}" WorkUnitID="{E34249C7-32E9-4573-AAB0-8087C3638399}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="RXD_aftershot_defeat" ID="{7ACD490A-AD1E-4E85-950F-B19ACE86A5FC}" WorkUnitID="{E34249C7-32E9-4573-AAB0-8087C3638399}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

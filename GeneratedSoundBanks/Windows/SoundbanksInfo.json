@@ -18,59 +18,11 @@
    {
     "Id": "586786179",
     "Language": "SFX",
-    "Hash": "539079729",
+    "Hash": "4290012321",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\RXD_BATTLE_UI",
     "ShortName": "RXD_BATTLE_UI",
     "Path": "RXD_BATTLE_UI.bnk",
     "IncludedEvents": [
-     {
-      "Id": "1638964056",
-      "Name": "RXD_aftershot_defeat",
-      "ObjectPath": "\\Events\\LoadBGM\\Music\\Music_Resultscreen\\RXD_aftershot_defeat",
-      "DurationType": "OneShot",
-      "DurationMin": "19.828413",
-      "DurationMax": "19.828413",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "148893200",
-        "Language": "SFX",
-        "ShortName": "Andrius_Klimka_-_Mines_Defeat.wav",
-        "Path": "SFX\\Andrius_Klimka_-_Mines_Defeat_3F75BDB9.wem"
-       }
-      ]
-     },
-     {
-      "Id": "1328580699",
-      "Name": "RXD_aftershot_draw",
-      "ObjectPath": "\\Events\\LoadBGM\\Music\\Music_Resultscreen\\RXD_aftershot_draw",
-      "DurationType": "OneShot",
-      "DurationMin": "19.164536",
-      "DurationMax": "19.164536",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "627953982",
-        "Language": "SFX",
-        "ShortName": "Andrius_Klimka_-_Mines_Drawn.wav",
-        "Path": "SFX\\Andrius_Klimka_-_Mines_Drawn_3F75BDB9.wem"
-       }
-      ]
-     },
-     {
-      "Id": "1732299773",
-      "Name": "RXD_aftershot_victory",
-      "ObjectPath": "\\Events\\LoadBGM\\Music\\Music_Resultscreen\\RXD_aftershot_victory",
-      "DurationType": "OneShot",
-      "DurationMin": "20.091452",
-      "DurationMax": "20.091452",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "410332645",
-        "Language": "SFX",
-        "ShortName": "Andrius_Klimka_-_Mines_Victory.wav",
-        "Path": "SFX\\Andrius_Klimka_-_Mines_Victory_3F75BDB9.wem"
-       }
-      ]
-     },
      {
       "Id": "415363298",
       "Name": "RXD_GUI_notifications_FX_adrenalin_off",
@@ -966,12 +918,62 @@
     ]
    },
    {
-    "Id": "1355168291",
+    "Id": "1183714176",
     "Language": "SFX",
-    "Hash": "2412002831",
-    "ObjectPath": "Init",
-    "ShortName": "Init",
-    "Path": "Init.bnk"
+    "Hash": "1419386281",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\RXD_AFTERMATH_MUSIC",
+    "ShortName": "RXD_AFTERMATH_MUSIC",
+    "Path": "RXD_AFTERMATH_MUSIC.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1638964056",
+      "Name": "RXD_aftershot_defeat",
+      "ObjectPath": "\\Events\\LoadBGM\\Music\\Music_Resultscreen\\RXD_aftershot_defeat",
+      "DurationType": "OneShot",
+      "DurationMin": "19.828413",
+      "DurationMax": "19.828413",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "148893200",
+        "Language": "SFX",
+        "ShortName": "Andrius_Klimka_-_Mines_Defeat.wav",
+        "Path": "SFX\\Andrius_Klimka_-_Mines_Defeat_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1328580699",
+      "Name": "RXD_aftershot_draw",
+      "ObjectPath": "\\Events\\LoadBGM\\Music\\Music_Resultscreen\\RXD_aftershot_draw",
+      "DurationType": "OneShot",
+      "DurationMin": "19.164536",
+      "DurationMax": "19.164536",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "627953982",
+        "Language": "SFX",
+        "ShortName": "Andrius_Klimka_-_Mines_Drawn.wav",
+        "Path": "SFX\\Andrius_Klimka_-_Mines_Drawn_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1732299773",
+      "Name": "RXD_aftershot_victory",
+      "ObjectPath": "\\Events\\LoadBGM\\Music\\Music_Resultscreen\\RXD_aftershot_victory",
+      "DurationType": "OneShot",
+      "DurationMin": "20.091452",
+      "DurationMax": "20.091452",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "410332645",
+        "Language": "SFX",
+        "ShortName": "Andrius_Klimka_-_Mines_Victory.wav",
+        "Path": "SFX\\Andrius_Klimka_-_Mines_Victory_3F75BDB9.wem"
+       }
+      ]
+     }
+    ]
    },
    {
     "Id": "2918457945",
