@@ -2982,9 +2982,6 @@
 				<ActorMixer Name="Result_BGM" ID="{3854D72E-FDF1-4706-8EF5-F84F41E8BD0E}" ShortID="382211133">
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-5</Value>
-							</ValueList>
 							<RTPCList>
 								<RTPC Name="" ID="{2815B329-DCE0-457F-A9CC-2FCA555A623A}" ShortID="975058717">
 									<ReferenceList>

@@ -920,7 +920,7 @@
    {
     "Id": "1183714176",
     "Language": "SFX",
-    "Hash": "2804555665",
+    "Hash": "270313503",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\RXD_AFTERMATH_MUSIC",
     "ShortName": "RXD_AFTERMATH_MUSIC",
     "Path": "RXD_AFTERMATH_MUSIC.bnk",
@@ -981,6 +981,14 @@
       "ObjectPath": "\\Game Parameters\\Settings\\RTPC_ext_settings_volume_master_music"
      }
     ]
+   },
+   {
+    "Id": "1355168291",
+    "Language": "SFX",
+    "Hash": "941296286",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk"
    },
    {
     "Id": "2918457945",
